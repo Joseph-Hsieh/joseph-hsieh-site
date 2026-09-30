@@ -169,6 +169,15 @@ def name(L):
     return P["name_en"] if L == "en" else P["name_zh"] + " " + P["name_en"]
 
 
+
+def vurl(path):
+    """Append a content hash so browsers fetch a fresh copy whenever the file changes."""
+    import hashlib
+    fp = os.path.join(ROOT, path.lstrip("/"))
+    if not os.path.exists(fp):
+        return path
+    return path + "?v=" + hashlib.sha1(open(fp, "rb").read()).hexdigest()[:8]
+
 def abs_url(path):
     return SITE + path
 
@@ -197,7 +206,7 @@ def person_ld():
         "name": P["name_en"],
         "alternateName": [P["name_zh"], P["name_zh"] + " " + P["name_en"], "謝文淵 Joseph"],
         "url": SITE + "/",
-        "image": SITE + P["photo"],
+        "image": SITE + vurl(P["photo"]),
         "jobTitle": "Chairman, DoublePortion Capital",
         "description": P.get("lead_en"),
         "worksFor": {"@type": "Organization", "name": "DoublePortion Capital", "alternateName": "倍恩資本股份有限公司"},
@@ -215,7 +224,7 @@ def head(L, title, desc, path, alternates, og_type="website", og_image=None, ext
     alt = "".join('<link rel="alternate" hreflang="%s" href="%s">' % (HREFLANG[l], abs_url(p)) for l, p in alternates.items())
     if "zh" in alternates:
         alt += '<link rel="alternate" hreflang="x-default" href="%s">' % abs_url(alternates["zh"])
-    img = abs_url(og_image or "/assets/og-%s.jpg" % L)
+    img = abs_url(og_image or vurl("/assets/og-%s.jpg" % L))
     lds = "".join(jsonld(x) for x in (extra_ld or []))
     return f"""<!doctype html>
 <html lang="{HTML_LANG[L]}">
@@ -239,7 +248,7 @@ def head(L, title, desc, path, alternates, og_type="website", og_image=None, ext
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#FD6925">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="{vurl("/assets/apple-touch-icon.png")}">
 <link rel="alternate" type="application/rss+xml" title="{esc(name(L))}" href="{PREFIX[L]}feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -360,9 +369,9 @@ def build_home(L):
     h += '<p class="motto">%s</p>' % esc(P.get("motto", "")).replace(", ", ",<br>", 1)
     h += '<p class="lead">%s</p>' % esc(T(P, "lead", L))
     h += '<div class="hero-tags">' + "".join("<span>%s</span>" % esc(t) for t in tags(T(P, "tags", L))) + "</div></div>"
-    h += ('<div class="portrait-wrap"><div class="portrait"><img src="%s" srcset="/assets/joseph-hsieh-400.jpg 400w, %s 800w" '
+    h += ('<div class="portrait-wrap"><div class="portrait"><img src="%s" srcset="%s 400w, %s 800w" '
           'sizes="(max-width:900px) 280px, 360px" width="800" height="1000" alt="%s" fetchpriority="high"></div></div></section>') % (
-        P["photo"], P["photo"], esc(name(L)))
+        vurl(P["photo"]), vurl("/assets/joseph-hsieh-400.jpg"), vurl(P["photo"]), esc(name(L)))
     h += '<div class="ledger">' + "".join('<div><b>%s<i>%s</i></b><span>%s</span></div>' % (esc(T(s, "n", L)), esc(T(s, "u", L)), esc(T(s, "l", L))) for s in P.get("stats", [])) + "</div></div>"
     if P.get("letter"):
         h += ('<section class="letter"><div><div class="kick">%s</div><h2>%s</h2></div><div class="body">%s<p class="sig">— %s</p></div></section>'
@@ -486,13 +495,15 @@ def build_article(L, a):
     img = "/assets/og/%s-%s.jpg" % (a["slug"], L)
     if not os.path.exists(os.path.join(ROOT, img.lstrip("/"))):
         img = None
+    else:
+        img = vurl(img)
     ld = [{
         "@context": "https://schema.org", "@type": "Article", "headline": title[:110],
         "description": plain(T(a, "summary", L), 300), "inLanguage": HTML_LANG[L] if body_text else "zh-Hant",
         "datePublished": pub, "dateModified": a.get("updated") or pub,
         "author": {"@type": "Person", "@id": PERSON_ID, "name": P["name_en"], "alternateName": P["name_zh"], "url": SITE + "/"},
         "publisher": {"@type": "Person", "@id": PERSON_ID, "name": P["name_en"]},
-        "image": abs_url(img or "/assets/og-%s.jpg" % L), "mainEntityOfPage": abs_url(path),
+        "image": abs_url(img or vurl("/assets/og-%s.jpg" % L)), "mainEntityOfPage": abs_url(path),
         "keywords": ", ".join(tags(T(a, "tags", L))),
         "subjectOf": [{"@type": "NewsArticle", "url": x["url"], "publisher": {"@type": "Organization", "name": x.get("name_en") or x["name"]},
                        "datePublished": x.get("date")} for x in (a.get("published_in") or [])] or None,

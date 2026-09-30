@@ -1,0 +1,714 @@
+{
+ "profile": {
+  "name_zh": "謝文淵",
+  "name_en": "Joseph Hsieh",
+  "eyebrow": "倍恩資本董事長 · SIC 永續影響力投資 GP · 台灣影響力投資協會常務理事·跨境創新創業交流協會常務理事",
+  "motto": "Private Capital, Public Good",
+  "lead": "我是謝文淵。逾 25 年金融產業經營與投資經驗，工作核心是主導企業轉型，以及第二成長曲線的發掘與經營；長期信念是資本應同時創造財務報酬與社會價值。",
+  "photo": "/assets/joseph-hsieh.jpg",
+  "intro": "曾任鉅亨證券投顧副董事長暨鉅亨網總經理，四年內將鉅亨買基金打造為台灣最大民營線上基金交易平台，管理資產逾 15 億美元，並主導集團自財經媒體轉型為受監理的金融服務集團。\n\n之前曾主持中國網路投融資平台，二十四個月內完成近 280 億美元的借貸與群募交易規模。更早期任淡馬錫全資富登融資擔保資深副總裁，派駐阿里集團共同開發金融服務，後任華北及西南大區總經理，經營中小企業融資及供應鏈金融，並推動事業出售予中國平安集團；再往前為國際機遇微型金融大中華區營運長，在中國建立並經營農村小額貸款與融資擔保公司。早年服務於萬事達卡與勤業管理顧問。\n\n學歷：台大商研所、台大數學系、新埔工專電子科。",
+  "stats": [
+   {
+    "n": "25+",
+    "u": "年",
+    "l": "金融產業經營與投資經驗",
+    "u_en": "yrs",
+    "l_en": "Operating and investing in financial services",
+    "u_ja": "年以上",
+    "l_ja": "金融業界での経営・投資経験"
+   },
+   {
+    "n": "15",
+    "u": "億美元",
+    "l": "主導打造之線上基金平台管理資產",
+    "n_en": "$1.5B",
+    "u_en": "",
+    "l_en": "Assets on the online fund platform I built",
+    "u_ja": "億米ドル",
+    "l_ja": "構築したオンラインファンド基盤の運用資産"
+   },
+   {
+    "n": "280",
+    "u": "億美元",
+    "l": "24 個月內完成之投融資交易規模",
+    "n_en": "$28B",
+    "u_en": "",
+    "l_en": "Lending and investment transactions in 24 months",
+    "u_ja": "億米ドル",
+    "l_ja": "24か月で実現した融資・投資取引規模"
+   },
+   {
+    "n": "38",
+    "u": "家",
+    "l": "SIC 天使社群投資之新創",
+    "u_en": "",
+    "l_en": "Startups backed by the SIC angel community",
+    "u_ja": "社",
+    "l_ja": "SIC エンジェルコミュニティの投資先"
+   }
+  ],
+  "roles": [
+   {
+    "org": "倍恩資本股份有限公司",
+    "role": "董事長",
+    "note": "企業顧問（董事會／CXO）、財務顧問、影響力基金設立與管理",
+    "org_en": "DoublePortion Capital",
+    "role_en": "Chairman",
+    "note_en": "Corporate advisory (board / CXO), financial advisory, impact fund formation and management",
+    "org_ja": "DoublePortion Capital（倍恩資本）",
+    "role_ja": "会長",
+    "note_ja": "企業アドバイザリー（取締役会／CXO）、ファイナンシャル・アドバイザリー、インパクトファンドの組成・運営"
+   },
+   {
+    "org": "SIC 永續影響力投資",
+    "role": "GP 一般合夥人",
+    "note": "一般合夥人(General Partner) 暨 投資公司管理合夥人(Managing Partner)",
+    "org_en": "Sustainable Impact Capital (SIC)",
+    "role_en": "GP",
+    "note_en": "Managing Partner, Sustainable Founders Capital 1; Lead, Financial Inclusion sector",
+    "org_ja": "SIC 永続インパクト投資（Sustainable Impact Capital）",
+    "role_ja": "GP",
+    "note_ja": "創業者一号投資 マネージング・パートナー／金融包摂部会 代表"
+   },
+   {
+    "org": "台灣影響力投資協會（TIIA）",
+    "role": "常務理事",
+    "note": "非營利民間組織，核心宗旨是建構與推動台灣「影響力投資」的健全生態體系，提倡引領市場資本在追求投資利潤的同時，也為社會及環境帶來正面、積極且可衡量的實質影響力．GSG Taiwan ",
+    "org_en": "Taiwan Impact Investing Association (TIIA)",
+    "role_en": "Executive Director",
+    "note_en": "Founding member; TIIA is a member of GSG Impact, GIIN and AVPN",
+    "org_ja": "台湾インパクト投資協会（TIIA）",
+    "role_ja": "常務理事",
+    "note_ja": "創設メンバー。協会は GSG Impact、GIIN、AVPN の会員"
+   },
+   {
+    "org": "跨境創新創業交流協會（CIEA）",
+    "role": "常務理事",
+    "note": "整合跨界資源，協助台灣創業者",
+    "org_en": "Cross-Border Innovation & Entrepreneurship Association (CIEA)",
+    "role_en": "Executive Director",
+    "note_en": "Connecting cross-sector resources for Taiwanese entrepreneurs",
+    "org_ja": "越境イノベーション起業交流協会（CIEA）",
+    "role_ja": "常務理事",
+    "note_ja": "分野を越えた資源をつなぎ、台湾の起業家を支援"
+   },
+   {
+    "org": "高曼證券投顧",
+    "role": "董事",
+    "note": "私募諮詢、境外投資架構、家族辦公室服務",
+    "org_en": "Gamma Paradigm Securities Investment Advisory",
+    "role_en": "Board Director",
+    "note_en": "Private equity advisory, offshore investment structuring, family office services",
+    "org_ja": "高曼（Gamma Paradigm）証券投資顧問",
+    "role_ja": "取締役",
+    "note_ja": "プライベート・エクイティ助言、海外投資スキーム、ファミリーオフィス・サービス"
+   },
+   {
+    "org": "盛德科技",
+    "role": "董事",
+    "note": "家族辦公室數位服務 & 數位資產管理平台",
+    "role_en": "Board Director",
+    "note_en": "Digital services for family offices and a digital asset management platform",
+    "role_ja": "取締役",
+    "note_ja": "ファミリーオフィス向けデジタルサービスおよびデジタル資産管理プラットフォーム"
+   },
+   {
+    "org": "國科會 IC Taiwan Grand Challenge",
+    "role": "召集委員",
+    "note": "晶創台灣競賽永續領域",
+    "org_en": "IC Taiwan Grand Challenge (NSTC)",
+    "role_en": "Panel Chair",
+    "note_en": "Sustainability track of Taiwan's national chip-innovation competition",
+    "org_ja": "IC Taiwan Grand Challenge（国家科学及技術委員会）",
+    "role_ja": "部門招集委員",
+    "note_ja": "台湾チップイノベーション・コンテストのサステナビリティ部門"
+   },
+   {
+    "org": "愛鄰社企",
+    "role": "董事長",
+    "note": "社區便利商店結合弱勢兒少課輔與在地就業",
+    "org_en": "iLink Social Enterprise",
+    "role_en": "Chairman",
+    "note_en": "A neighborhood convenience store combined with tutoring for underserved children and local jobs",
+    "org_ja": "愛鄰ソーシャルエンタープライズ",
+    "role_ja": "会長",
+    "note_ja": "地域のコンビニエンスストアを拠点に、支援が必要な子どもの学習支援と地域雇用を展開"
+   }
+  ],
+  "faith": "工作之外，也在台北靈糧堂服事，擔任執事與職場牧區小組長。",
+  "email": "joseph.hsieh.tw@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/joseph1974/",
+  "facebook": "https://www.facebook.com/joseph.hsieh",
+  "instagram": "https://www.instagram.com/joehsieh/",
+  "intro_en": "As Vice Chairman of Anue Securities Investment Consulting and General Manager of Anue (cnYes), I built Anue Fund into Taiwan's largest independent online fund platform within four years, with more than US$1.5 billion in assets, and led the group's transformation from financial media into a regulated financial services group.\n\nBefore that I led an online lending and investment platform that completed nearly US$28 billion in lending and crowdfunding transactions within 24 months. Earlier, as Senior Vice President at Temasek-owned Fullerton Financial Holdings, I was seconded to Alibaba Group to co-develop financial services, then served as Regional General Manager for North and Southwest China, running SME and supply-chain finance and supporting the sale of the business to Ping An Group. Before that, as Greater China COO of Opportunity International, I built and managed rural microfinance and credit guarantee companies. I began my career at Mastercard and Deloitte Consulting.\n\nEducation: MBA, Graduate Institute of Business Administration, National Taiwan University; BS in Mathematics, National Taiwan University; Electronics, Hsin Pu Junior College of Technology.",
+  "contact_note": "歡迎就董事會與治理、企業轉型、募資整備、影響力投資與家族資本等議題交流。",
+  "headline": "讓資本，\n去到需要它的地方。",
+  "tags": "影響力投資、天使投資、家族辦公室、企業轉型",
+  "letter": "二十多年來，我在金融、微型金融與新創之間工作。看過資本如何讓一家公司長出第二條成長曲線，也看過一筆小額貸款，怎樣改變一個家庭的日子。\n\n我相信資本可以同時帶來報酬與善意。如果你正在思考企業的下一步、家族資本的方向，或手上有一個值得被支持的新創，很願意和你坐下來聊聊。",
+  "signature": "文淵",
+  "eyebrow_en": "Chairman, DoublePortion Capital · GP, Sustainable Impact Capital (SIC) · Executive Director, Taiwan Impact Investing Association · Executive Director, Cross-Border Innovation & Entrepreneurship Association",
+  "headline_en": "Putting capital\nwhere it is needed.",
+  "lead_en": "I'm Joseph Hsieh. I bring more than 25 years of experience running and investing in financial services businesses. My work centers on leading corporate transformation and building second growth curves, and I believe capital should create both financial returns and social value.",
+  "tags_en": "Impact investing, Angel investing, Family offices, Corporate transformation",
+  "faith_en": "Outside work, I serve at the Bread of Life Christian Church in Taipei as a deacon and marketplace ministry small-group leader.",
+  "letter_en": "For more than twenty years I have worked across finance, microfinance and startups. I have seen capital help a company grow a second growth curve, and I have seen a single small loan change a family's everyday life.\n\nI believe capital can deliver both returns and good. If you are thinking about your company's next step, the direction of your family's capital, or a startup that deserves support, I would be glad to sit down and talk.",
+  "signature_en": "Joseph",
+  "contact_note_en": "I welcome conversations on boards and governance, corporate transformation, fundraising readiness, impact investing and family capital.",
+  "eyebrow_ja": "DoublePortion Capital（倍恩資本）会長 · SIC 永続インパクト投資 GP · 台湾インパクト投資協会 常務理事 · 越境イノベーション起業交流協会 常務理事",
+  "headline_ja": "資本を、\n必要とされる場所へ。",
+  "lead_ja": "謝文淵（Joseph Hsieh）と申します。金融業界での経営と投資に25年以上携わってきました。企業変革の主導と、第二の成長曲線の発掘・育成を仕事の核とし、資本は財務リターンと社会的価値を同時に生み出すべきだと考えています。",
+  "tags_ja": "インパクト投資、エンジェル投資、ファミリーオフィス、企業変革",
+  "intro_ja": "鉅亨証券投資顧問の副会長および鉅亨網（Anue）総経理として、4年で「鉅亨買基金」を台湾最大の独立系オンラインファンド取引プラットフォームに育て、運用資産は15億米ドルを超えました。また、グループを金融メディアから規制下の金融サービスグループへと転換させました。\n\nそれ以前は、オンライン融資・投資プラットフォームを率い、24か月で約280億米ドルの融資およびクラウドファンディング取引を実現しました。さらに前には、テマセク全額出資のフラトン・フィナンシャル・ホールディングスでシニア・バイスプレジデントを務め、アリババグループに派遣されて金融サービスを共同開発した後、華北・西南地域の総経理として中小企業金融とサプライチェーン金融を統括し、中国平安グループへの事業売却を推進しました。その前はオポチュニティ・インターナショナルの大中華圏COOとして、農村マイクロクレジット会社と信用保証会社を設立・運営しました。キャリアの初期はマスターカードとデロイト コンサルティングに勤務しました。\n\n学歴：国立台湾大学 商学研究科（MBA）、国立台湾大学 数学科、新埔工業専科学校 電子科。",
+  "faith_ja": "仕事のほか、台北霊糧堂で執事および職場ミニストリーのスモールグループリーダーとして奉仕しています。",
+  "letter_ja": "二十数年にわたり、金融、マイクロファイナンス、そしてスタートアップの世界で仕事をしてきました。資本が一つの企業に第二の成長曲線をもたらす場面も、一件の小さな融資がある家族の暮らしを変える場面も見てきました。\n\n資本はリターンと善意を同時に生み出せると信じています。企業の次の一手、ご家族の資本の行方、あるいは支援に値するスタートアップについてお考えでしたら、ぜひ一度ゆっくりお話ししましょう。",
+  "signature_ja": "文淵",
+  "contact_note_ja": "取締役会とガバナンス、企業変革、資金調達の準備、インパクト投資、ファミリーキャピタルなどのテーマについて、お気軽にご連絡ください。"
+ },
+ "career": [
+  {
+   "years": "2017–2020",
+   "org": "鉅亨證券投顧（鉅亨買基金）／鉅亨網",
+   "role": "副董事長暨執行董事／總經理",
+   "points": "三年內打造台灣最大民營基金交易平台，資產規模成長 30 倍、用戶成長 15 倍，並轉虧為盈\n與逾 50 家境內外基金公司建立合作\n與工研院共同開發 AI 機器人理財服務；與 8 家國際資產管理公司推出退休理財服務\n主導鉅亨網品牌更新與行動優先策略",
+   "org_en": "Anue Securities Investment Consulting (Anue Fund) / Anue (cnYes)",
+   "role_en": "Vice Chairman & Executive Director / General Manager",
+   "points_en": "Built Taiwan's largest independent fund platform in three years; assets grew 30x, users 15x, and the business turned profitable\nPartnered with more than 50 onshore and offshore fund houses\nCo-developed an AI robo-advisor with ITRI; launched a retirement service with 8 global asset managers\nLed the Anue rebrand and a mobile-first strategy",
+   "org_ja": "鉅亨証券投資顧問（鉅亨買基金）／鉅亨網（Anue）",
+   "role_ja": "副会長兼執行取締役／総経理",
+   "points_ja": "3年で台湾最大の独立系ファンド取引プラットフォームを構築。資産規模30倍、ユーザー数15倍に拡大し、黒字化を達成\n国内外50社以上の運用会社と提携\n工業技術研究院（ITRI）とAIロボアドバイザーを共同開発。海外大手運用会社8社と退職準備サービスを開始\n鉅亨網のブランド刷新とモバイルファースト戦略を主導"
+  },
+  {
+   "years": "2014–2016",
+   "org": "互聯網金融集團",
+   "role": "高級董事總經理",
+   "points": "網路投融資平台之建立與營運管理\n24 個月內完成近 280 億美元借貸與群募交易規模\n建立產業金融業務聯盟 ",
+   "org_en": "Internet Finance Group",
+   "role_en": "Senior Managing Director",
+   "points_en": "Built and ran an online lending and investment platform\nCompleted nearly US$28 billion in lending and crowdfunding transactions within 24 months\nBuilt an industrial-finance business alliance",
+   "org_ja": "インターネット金融グループ",
+   "role_ja": "シニア・マネージング・ディレクター",
+   "points_ja": "オンライン融資・投資プラットフォームの構築と運営\n24か月で約280億米ドルの融資・クラウドファンディング取引を実現\n産業金融のビジネスアライアンスを構築"
+  },
+  {
+   "years": "2011–2014",
+   "org": "富登投資信用擔保(淡馬錫全資）",
+   "role": "資深副總裁暨大區總經理",
+   "points": "前期負責集團負責戰略聯盟、後整體負責華北大區及西南大區經營管理\n代表參與阿里集團初代小微企業金融服務設計\n推動事業出售予中國平安集團",
+   "org_en": "Fullerton Financial Holdings (wholly owned by Temasek)",
+   "role_en": "Group SVP & Regional General Manager",
+   "points_en": "Led business alliances, North China business planning (8 branches) and Southwest China operations (5 branches)\nRepresented the group in designing Alibaba's first-generation SME financial services\nSupported the sale of the business to Ping An Group",
+   "org_ja": "フラトン・フィナンシャル・ホールディングス（テマセク全額出資）",
+   "role_ja": "グループ シニア・バイスプレジデント兼地域総経理",
+   "points_ja": "事業提携、華北の事業企画（8支店）、西南地域の経営（5支店）を担当\nグループを代表し、アリババ初期の中小企業向け金融サービス設計に参画\n中国平安グループへの事業売却を推進"
+  },
+  {
+   "years": "2008–2011",
+   "org": "國際機遇 Opportunity International",
+   "role": "大中華區營運長暨小額貸款公司總經理",
+   "points": "全球性微型金融社會企業，為弱勢經營者提供小額貸款與培訓\n從零建立小額貸款公司，管理 1 家小貸公司(蘇北宿遷)與 2 家融資擔保公司(安徽合肥 & 江西南昌)",
+   "org_en": "Opportunity International",
+   "role_en": "Greater China COO & General Manager, Microcredit Company",
+   "points_en": "A global microfinance social enterprise providing small loans and training to low-income entrepreneurs\nBuilt a microcredit company from scratch; managed 1 microcredit and 2 credit guarantee companies",
+   "org_ja": "オポチュニティ・インターナショナル",
+   "role_ja": "大中華圏COO兼マイクロクレジット会社総経理",
+   "points_ja": "低所得の事業者に小口融資と研修を提供する、世界的なマイクロファイナンスの社会的企業\nマイクロクレジット会社をゼロから設立し、マイクロクレジット1社と信用保証2社を運営"
+  },
+  {
+   "years": "1999–2008",
+   "org": "萬事達卡／SAS／勤業管理顧問",
+   "role": "",
+   "points": "支付、管理顧問與數據管理實務之業務與專案管理",
+   "org_en": "Mastercard / SAS / Deloitte Consulting",
+   "points_en": "Business and project management in payments, management consulting and data management",
+   "org_ja": "マスターカード／SAS／デロイト コンサルティング",
+   "points_ja": "決済、経営コンサルティング、データマネジメント分野の営業およびプロジェクト管理"
+  }
+ ],
+ "engagements": [
+  {
+   "date": "2026-10-16",
+   "title": "第六屆台灣影響力投資國際論壇（TIIF 2026）",
+   "org": "台灣影響力投資協會 · 政大公企中心",
+   "desc": "主題「公私協力共創影響力金融生態系」，借鏡日本經驗；家族資本為五大議題之一。",
+   "url": "",
+   "title_en": "6th Taiwan Impact Investing Forum (TIIF 2026)",
+   "org_en": "Taiwan Impact Investing Association · NCCU Center for Public and Business Administration Education",
+   "desc_en": "Theme: public-private partnership for an impact finance ecosystem, drawing on Japan's experience. Family capital is one of five core topics.",
+   "title_ja": "第6回 台湾インパクト投資国際フォーラム（TIIF 2026）",
+   "org_ja": "台湾インパクト投資協会 · 国立政治大学 公企センター",
+   "desc_ja": "テーマは「官民連携によるインパクト金融エコシステムの共創」。日本の経験に学び、ファミリーキャピタルを5つの主要議題の一つとして取り上げます。"
+  },
+  {
+   "date": "2026",
+   "title": "IC Taiwan Grand Challenge 永續領域召集委員",
+   "org": "國家科學及技術委員會",
+   "desc": "晶創台灣競賽，吸引國際新創以晶片創新解決全球挑戰。",
+   "url": "https://ictaiwanchallenge.org/",
+   "title_en": "IC Taiwan Grand Challenge, Sustainability Panel Chair",
+   "org_en": "National Science and Technology Council (NSTC)",
+   "desc_en": "A global competition inviting startups to solve global challenges with chip-based innovation.",
+   "title_ja": "IC Taiwan Grand Challenge サステナビリティ部門 招集委員",
+   "org_ja": "国家科学及技術委員会（NSTC）",
+   "desc_ja": "チップを活用したイノベーションで世界的課題の解決を目指す、国際スタートアップ・コンテスト。"
+  },
+  {
+   "date": "2026-01",
+   "title": "企業重整策略班：企業價值與價格",
+   "org": "授課",
+   "desc": "向 20 多位上市櫃及民營企業董事長講授企業價值、價格與定價策略。",
+   "url": "",
+   "title_en": "Corporate Restructuring Strategy Program: Enterprise Value vs. Price",
+   "org_en": "Lecturer",
+   "desc_en": "Taught enterprise value, price and pricing strategy to more than 20 chairpersons of listed and private companies.",
+   "title_ja": "企業再編戦略講座：企業価値と価格",
+   "org_ja": "講師",
+   "desc_ja": "上場企業および非上場企業の会長20名余りに、企業価値、価格、プライシング戦略を講義。"
+  },
+  {
+   "date": "2025-12-20",
+   "title": "Hult Prize 成功大學校園決賽 評審",
+   "org": "國立成功大學",
+   "desc": "以團隊、構想、影響力與商業可行性評選八支社會創新團隊。",
+   "url": "",
+   "title_en": "Hult Prize at National Cheng Kung University, Final Judge",
+   "org_en": "National Cheng Kung University",
+   "desc_en": "Judged eight social innovation teams on team, idea, impact and business viability.",
+   "title_ja": "Hult Prize 国立成功大学 学内決勝 審査員",
+   "org_ja": "国立成功大学",
+   "desc_ja": "チーム、構想、インパクト、事業の実現可能性の観点から、8つの社会イノベーションチームを審査。"
+  },
+  {
+   "date": "2025",
+   "title": "TIIF 2025 家族辦公室場次 主持",
+   "org": "台灣影響力投資協會",
+   "desc": "與星展銀行、貝克麥堅時、香港財富傳承學院對談家族辦公室如何推動影響力資本。",
+   "url": "",
+   "title_en": "TIIF 2025 Family Office Session, Moderator",
+   "org_en": "Taiwan Impact Investing Association",
+   "desc_en": "Moderated DBS Bank, Baker McKenzie and the Hong Kong Academy for Wealth Legacy on how family offices can scale impact capital.",
+   "title_ja": "TIIF 2025 ファミリーオフィス・セッション モデレーター",
+   "org_ja": "台湾インパクト投資協会",
+   "desc_ja": "DBS銀行、ベーカー＆マッケンジー、香港財富伝承学院（HKAWL）とともに、ファミリーオフィスによるインパクト資本の拡大を議論。"
+  },
+  {
+   "date": "持續",
+   "title": "新創業師",
+   "org": "TAcc+ 台灣加速器 · 陽明交大產業加速器 IAPS",
+   "desc": "輔導早期科技新創的商業模式、募資與成長策略。",
+   "url": "",
+   "date_en": "Ongoing",
+   "title_en": "Startup Mentor",
+   "org_en": "TAcc+ Taiwan Accelerator · NYCU Industry Accelerator and Patent Strategy (IAPS)",
+   "desc_en": "Mentoring early-stage tech startups on business models, fundraising and growth strategy.",
+   "date_ja": "継続中",
+   "title_ja": "スタートアップ・メンター",
+   "org_ja": "TAcc+ 台湾アクセラレーター · 陽明交通大学 産業アクセラレーター（IAPS）",
+   "desc_ja": "アーリーステージのテック・スタートアップに、ビジネスモデル、資金調達、成長戦略を助言。"
+  }
+ ],
+ "services": [
+  {
+   "tag": "治理",
+   "title": "董事會與治理",
+   "en": "Board & Governance",
+   "desc": "擔任董事、獨立董事或董事會顧問，參與審計、薪酬、永續等委員會運作。",
+   "points": "董事／獨立董事\n董事會顧問\n委員會運作與治理機制",
+   "tag_en": "Governance",
+   "title_en": "Board & Governance",
+   "desc_en": "Serving as director, independent director or board advisor, including audit, compensation and sustainability committees.",
+   "points_en": "Director / Independent director\nBoard advisor\nCommittee operations and governance design",
+   "tag_ja": "ガバナンス",
+   "title_ja": "取締役会・ガバナンス",
+   "desc_ja": "取締役、独立取締役、取締役会アドバイザーとして、監査・報酬・サステナビリティ等の委員会運営に参画します。",
+   "points_ja": "取締役／独立取締役\n取締役会アドバイザー\n委員会運営とガバナンス体制の設計"
+  },
+  {
+   "tag": "經營",
+   "title": "高階經營角色",
+   "en": "Executive Roles",
+   "desc": "依企業需要出任執行董事、執行長、財務長等 CXO 角色，全職、部分工時或過渡期皆可。",
+   "points": "執行董事／CEO／CFO\n接班交棒規劃\n新任高階主管陪跑",
+   "tag_en": "Executive",
+   "title_en": "Executive Roles",
+   "desc_en": "Stepping in as executive director, CEO, CFO or other CXO roles, full-time, part-time or interim.",
+   "points_en": "Executive director / CEO / CFO\nSuccession planning\nCoaching newly appointed executives",
+   "tag_ja": "経営",
+   "title_ja": "経営幹部としての参画",
+   "desc_ja": "企業のニーズに応じて、執行取締役、CEO、CFO などのCXOとして、常勤・非常勤・暫定のいずれでも参画します。",
+   "points_ja": "執行取締役／CEO／CFO\n事業承継の計画\n新任経営幹部の伴走支援"
+  },
+  {
+   "tag": "專案",
+   "title": "專案型委任",
+   "en": "Advisory Mandates",
+   "desc": "透過倍恩資本，承接轉型與成長策略、募資與資本市場相關的專案委任。",
+   "points": "轉型與第二成長曲線策略\n募資與投資人整備（FA）\n買賣方盡職調查、IPO 與併購\n牌照與法規申請、跨境市場進入",
+   "tag_en": "Advisory",
+   "title_en": "Advisory Mandates",
+   "desc_en": "Project mandates through DoublePortion Capital on transformation, growth strategy, fundraising and capital markets.",
+   "points_en": "Transformation and second-growth-curve strategy\nFundraising and investor readiness (FA)\nBuy-side and sell-side due diligence, IPO and M&A\nLicensing, regulatory applications and cross-border market entry",
+   "tag_ja": "プロジェクト",
+   "title_ja": "プロジェクト型アドバイザリー",
+   "desc_ja": "倍恩資本を通じて、企業変革、成長戦略、資金調達、資本市場に関するプロジェクトを受託します。",
+   "points_ja": "変革と第二の成長曲線の戦略\n資金調達と投資家対応の準備（FA）\n買い手・売り手のデューデリジェンス、IPO、M&A\nライセンス・許認可申請、海外市場への参入"
+  },
+  {
+   "tag": "投資",
+   "title": "早期與影響力投資",
+   "en": "Early-stage & Impact Investing",
+   "desc": "透過倍恩資本與 SIC 永續影響力投資參與早期直接投資，並為家族辦公室規劃影響力配置。",
+   "points": "早期直接投資與 Co-Fund\n家族辦公室影響力配置\n大中華區金融機構與投資社群引介",
+   "tag_en": "Investing",
+   "title_en": "Early-stage & Impact Investing",
+   "desc_en": "Direct early-stage investing through DoublePortion Capital and SIC, and impact allocation design for family offices.",
+   "points_en": "Early-stage direct investment and co-funds\nImpact allocation for family offices\nIntroductions to financial institutions and investor networks across Greater China",
+   "tag_ja": "投資",
+   "title_ja": "アーリーステージ・インパクト投資",
+   "desc_ja": "倍恩資本とSICを通じたアーリーステージへの直接投資、およびファミリーオフィス向けインパクト配分の設計を行います。",
+   "points_ja": "アーリーステージ直接投資と共同ファンド\nファミリーオフィスのインパクト配分\n大中華圏の金融機関・投資家ネットワークのご紹介"
+  }
+ ],
+ "articles": [
+  {
+   "id": "a1",
+   "title": "經濟成長創半世紀新高，但那不是多數人的台灣",
+   "subtitle": "當資源集中流向半導體，誰來投資教育、環境、人文與下一代的新創",
+   "date": "2026.9.28",
+   "tags": "影響力投資、耐心資本、新創",
+   "summary": "上半年經濟成長 13.72%，但成長高度集中在電子與資通產業。資源集中不只發生在產業之間，也發生在市場之間；教育、社福、環境與人文缺的不是關心，而是適合的資本工具。海外經驗顯示，願意等待、承擔早期風險的耐心資本是補上缺口的關鍵，而台灣的家族企業、企業、金融與公共資金都有條件成為這股力量。",
+   "image": "",
+   "body": "今年七月底，主計總處公布第二季經濟成長率 12.92%，上半年合計成長 13.72%，是 1976 年以來的最高紀錄。隨後全年經濟成長率預測上修到 11.05%，創三十九年新高。台股站上四萬五千點，國際指數公司接連調高台股權重。\n\n這是一組讓人振奮的數字。但只要再往下拆一層，就會看到另一個台灣。\n\n以今年第一季為例，出口成長 51%，其中電子零組件與資通產品貢獻了 71% 的成長；二十四類出口產品中，仍有十二類衰退。第二季的資本形成成長 15%，主要動能同樣來自半導體設備投資。而最關鍵的是就業——電子與資通產業只占台灣就業人口的 **7.7%**。\n\n換句話說，**超過九成的工作者，站在這波高成長之外。**\n\n## 會議室裡反覆出現的同一個問題\n\n過去幾年，我以台灣影響力投資協會常務理事的身分，有機會坐進許多立場不同的會議室。協會本身沒有任何商業行為，也因此能讓不同立場的人坐在一起。\n\n有時是和銀行、資產管理業者討論，財富管理的商品架上，能不能出現真正說得清楚「這筆錢改變了什麼」的選項。有時是和家族企業的兩代人坐在一起，談傳承之外，家族的錢還想做到什麼。有時是和學界與專業服務業者比對國際標準，也有時是在主管機關的座談中提出民間的觀察。透過協會參與的國際網絡，我們也持續和亞洲各地的夥伴交換制度經驗。\n\n這些場合的參與者，關心的事情各不相同。但討論到最後，常常會落在同一個問題上：\n\n**台灣不缺錢。但錢，沒有流到需要它的地方。**\n\n## 先說清楚：這不是在檢討半導體\n\n台積電是台灣的國家級資產，它的成功是我們這代人最大的運氣之一。我要談的不是產業本身，而是**資源配置的單一化**——當公共財政、資本市場、人才供給與社會注意力都朝同一個方向傾斜時，其他領域會發生什麼事。\n\n集中度已經是常被引用的數字：**台積電一家公司占台股市值約 42%**；它在 2025 年的用電量約當台灣全年用電的 **10.2%**。這些數字本身都是成就，但它們也在無聲地定義一件事——什麼叫做「重要的產業」。\n\n## 一級市場，最早被擠壓\n\n除了協會的角色，我也以 SIC 永續影響力投資合夥人的身分，參與新創與早期投資。這個位置讓我看到一個總體數據裡不容易被看見的現象：**資源的集中，不只發生在產業之間，也發生在市場之間。**\n\n先看全球。今年上半年全球創投投資達 5,021 億美元，已經超過 2025 年全年；但第二季有七成資金流向 AI，種子輪件數單季減少近三成。KPMG 的統計更直接：第一季五筆 AI 巨型交易，就吸走全球近六成的創投資金。錢變多了，拿到錢的公司卻變少了。\n\n台灣的情況更值得細看。經濟部 FINDIT 平台統計的 2024 年全年資料顯示，創投參與的投資件數一年減少近 15%，海外投資人減少 35%，反而是國發基金的參與件數增加三成——公部門正在補民間撤出的位置。企業與企業創投參與了七成的交易，而台灣的企業資本，很大一部分本身就在半導體與硬體供應鏈裡。今年五月，一位已完成 A 輪募資的創業者在媒體投書指出，本土出資人高度集中於半導體與硬體，應用端的新創「拿不到第一張天使輪支票」，A、B 輪的中段資金也在萎縮。\n\n二級市場的熱鬧，又把這個擠壓放大了一層。台股 ETF 規模在今年八月初達到 7.5 兆元，光是今年就增加 3.6 兆元，受益人數合計超過 1,850 萬。當一檔市值型 ETF 就能提供亮眼的報酬和隨時可賣的流動性，要說服出資人把錢鎖進一支十年期的早期基金，機會成本從來沒有這麼高。一份追蹤 2021 年以來三百家新掛牌公司的研究更發現，台灣創投的超額報酬有一半以上，是在公司上市「之後」才實現的——就連創投自己最好的報酬，也有一大半落在二級市場。\n\n在早期投資的現場，這兩股力量疊在一起的結果很具體：**半導體與 AI 硬體之外的新創——氣候、醫療、教育、社會創新——要拿到第一筆和第二筆資金，比幾年前難得多。**而這些，恰好是台灣下一個十年最需要的解題者。\n\n## 教室與社福現場\n\n同樣的傾斜，也出現在教室裡。過去五年，全台高中**語文資優班的學生減少了 41%**，從 907 人降到 531 人。大學端，理工領域學生占 48.4%，五年增加 4.4 個百分點；**人文領域只剩 18.1%**。少子化是全面的，人文的萎縮卻是偏向的——**學生不是變少了，是被引導到別的地方去了。**\n\n社福現場則更急迫。今年四月，監察院糾正衛生福利部，點出社會福利委辦案的六大缺失：委辦案中**照顧服務員的時薪上限是 200 元**，市場行情卻在 250 到 500 元之間，差額由非營利組織自行募款填補；**核銷款項可能延遲六到十個月**。\n\n在一個經濟成長創半世紀新高的國家裡，照服員的委辦時薪上限是 200 元。這兩個數字放在一起，很難不讓人覺得哪裡出了問題。\n\n環境與人文則是另一種缺口：**成功本身帶來的外部成本，目前沒有被任何人的資產負債表承接**；而翻譯、出版、地方文史這些「消失之前沒有人會注意到」的東西，也不會出現在 GDP 的任何一個欄位裡。\n\n## 四種資本，各有各的限制\n\n把這些放在一起，會看到同一個結構：**它們都不是「沒有人關心」，而是「沒有適合的資本工具」。**\n\n政府預算有排擠效應，社福預算的成長追不上整體經濟的規模。機構投資人受受託人責任約束，不能為了社會目的接受較低的報酬。慈善捐款總量有限，而且高度集中。創投本應承擔早期風險，卻正同時被產業集中與二級市場的高報酬雙重擠壓。\n\n這不代表無解。但它提醒我們：缺的不是更多的錢，而是**另一種性質的錢**。\n\n## 一股被低估的力量\n\n在海外，這類缺口往往是由一股特定的力量先補上的：**願意等待、願意承擔早期風險，也願意跨越「投資」與「公益」界線的資本。**國際上稱之為耐心資本，或催化資本。\n\n它不只有一種樣貌。在美國，是基金會把捐贈基金的一部分投入與使命相關的投資——福特基金會就曾承諾撥出最高十億美元；在新加坡，是政府以制度誘因引導家族辦公室投入氣候與混合金融，淡馬錫信託旗下的亞洲慈善聯盟匯集的承諾已逾十億星元；在日本，是金融機構與公共年金在主管機關召集下一起進場，把影響力投資規模推到 18.65 兆日圓。\n\n家族、基金會、企業、金融機構、公共資金——出資者各不相同，扮演的卻是同一種角色：**在市場還不願意進場的地方，先走進去。**\n\n這股力量的價值不在規模，而在性質。一支早期基金需要向出資人解釋為什麼不去買 ETF；一個想清楚自己要促成什麼的出資者——不論是家族、企業還是基金會——則不需要。\n\n## 台灣也需要這股力量\n\n我相信台灣也需要，而且條件並不差。\n\n台灣有全世界少見的產業密度，中國信託與政治大學產學合作的家族辦公室研究指出，**上市公司中超過七成屬於家族企業，非上市企業更超過九成**；有正在訂定永續承諾與供應鏈減碳目標的企業；有規模龐大、正在尋找永續配置的金融與保險資金；也有國發基金與部會基金已經開始嘗試的公私共同投資。這些參與者手上握有的不只是資金，還有產業能力、客戶關係與通路——正是能讓一筆早期投資真正發揮作用的東西。\n\n缺的，是把它們接起來的共同語言與機制。\n\n## 錢在移動的時候\n\n未來十年，台灣會有一大批資產同時進入重新配置的時刻：家族企業的交棒——兩成家族企業負責人已超過六十五歲，八成五的高資產客戶已啟動或正準備啟動傳承規劃；企業面對供應鏈減碳的新要求；金融機構追趕永續金融的目標。\n\n錢在移動的時候，方向最容易被改變；一旦重新安頓下來，就很難再動了。\n\n這些決定，會在家族會議、董事會、投資委員會與政策會議裡安靜地完成。我希望在那些房間裡，除了報酬與風險之外，也有人問出這一句：\n\n**這筆錢，除了繼續賺錢以外，還想讓台灣的哪一個地方變得不一樣？**\n\n繁榮不會自己找到需要它的地方。那得有人帶路。\n\n作者為台灣影響力投資協會常務理事，並為 SIC 永續影響力投資合夥人、倍恩資本董事長。文中對早期投資市場的觀察，來自作者參與 SIC 投資人社群的經驗。",
+   "title_en": "Record Growth, But Not for Most of Taiwan",
+   "subtitle_en": "As resources flow to semiconductors, who will invest in education, the environment, the humanities and the next generation of startups?",
+   "tags_en": "Impact investing, Patient capital, Startups",
+   "summary_en": "Taiwan's economy grew 13.72% in the first half, but growth is concentrated in electronics and ICT. Concentration is happening across markets as well as industries, and education, social welfare, the environment and the humanities lack suitable capital tools rather than attention. Experience abroad shows that patient capital, willing to wait and take early risk, is what fills these gaps, and Taiwan's family businesses, corporates, financial institutions and public funds are well placed to provide it.",
+   "title_ja": "経済成長は半世紀ぶりの高水準、しかしそれは多くの人の台湾ではない",
+   "subtitle_ja": "資源が半導体に集中するなか、教育・環境・人文、そして次世代のスタートアップに誰が投資するのか",
+   "tags_ja": "インパクト投資、ペイシェント・キャピタル、スタートアップ",
+   "summary_ja": "上半期の経済成長率は13.72%に達したものの、成長は電子・情報通信産業に集中しています。資源の集中は産業間だけでなく市場間でも起きており、教育、福祉、環境、人文に欠けているのは関心ではなく適切な資本の仕組みです。海外の経験は、待つことを厭わず初期リスクを引き受ける「ペイシェント・キャピタル」が空白を埋める鍵であることを示しており、台湾のファミリー企業、事業会社、金融機関、公的資金にはその担い手となる条件がそろっています。",
+   "byline": "謝文淵（台灣影響力投資協會常務理事）",
+   "byline_en": "Joseph Hsieh, Executive Director, Taiwan Impact Investing Association",
+   "byline_ja": "謝文淵（台湾インパクト投資協会 常務理事）",
+   "slug": "taiwan-growth-not-for-most"
+  },
+  {
+   "id": "a2",
+   "title": "家族拿出來的如果只是錢，那是最可被取代的一種",
+   "subtitle": "從「特殊資產」到「額外性」：家族資本在影響力投資裡的獨特位置",
+   "date": "2026.9.28",
+   "tags": "家族辦公室、影響力投資",
+   "summary": "家族真正要傳承的是「難以透過市場取得」的特殊資產，這正是影響力投資「額外性」的定義。本文回答家族最關心的三個問題：報酬、治理與下一代，並指出催化資本中最便宜的是時間。",
+   "image": "",
+   "body": "「有錢人應該多做點好事。」\n\n這是我在各種場合最常聽到、也最想修正的一句話。不是因為它不對，而是因為它把一件結構性的事情，講成了道德問題。\n\n如果影響力投資缺的只是錢，問題早就解決了。推動影響力的力量本來就很多元——基金會、企業、銀行與保險、公共基金，各有各的角色。真正值得問的是另一個問題：**在這些力量之中，家族能帶來什麼別人難以取代的東西？**\n\n## 先把「影響力投資」講清楚\n\n影響力投資不是 ESG 的別名。ESG 問的是「這家公司會不會傷害我的投資」，屬於風險管理；影響力投資問的是「這筆錢有沒有讓某件好事真的多發生」。\n\n一筆投資要被稱為影響力投資，至少要做到三件事：在決策前寫下它要解決的問題；說得出「沒有這筆錢，這件事就不會發生」；並且持續衡量、揭露結果。少了最後一項，就只是換了名字的一般投資。\n\n這個市場已不是利基。全球影響力投資資產約 1.57 兆美元，由近四千家機構管理，過去五年的年複合成長率約 21%。\n\n## 一句話，兩種語言\n\n九月中旬，中國信託與政治大學產學合作的家族辦公室研究智庫發表了第二期報告《家族企業傳承的思考與決策框架》，主筆是香港中文大學范博宏教授與新加坡管理大學譚子敏副教授。報告的核心命題是這一句：\n\n「家族企業真正需要傳承的，不是企業本身，而是支撐企業競爭優勢的**特殊資產**。」\n\n所謂特殊資產，報告的定義是：**具有高度專屬性、難以透過市場取得，且一旦脫離原有組織或情境，其價值便大幅降低的資產。**報告把它分成五類——創辦人的個人資本、知識與技術能力、家族品牌與企業聲譽、社會資本與合作網絡、治理文化。這五類裡，只有技術能力勉強買得到，其餘在市場上都沒有標價。\n\n我第一次讀到這段時停了很久。因為在影響力投資的專業語言裡，最核心的概念之一叫「**額外性**」（additionality），它的定義是：**沒有這筆投入，這件事不會發生，或者會晚很多年才發生。**\n\n**這是同一件事的兩種語言。**\n\n一個家族如果拿出來的只是錢，那是市場上最可被取代的資源——今天你不投，明天會有別人投，額外性趨近於零。但如果家族拿出來的是特殊資產——一張採購訂單、一段供應鏈裡的信任、一項製造知識，甚至只是創辦人願意把名字借出來——那是市場上買不到的東西，**額外性天然最高。**\n\n## 台灣家族手上真正的籌碼\n\n同一份報告給了一個份量很重的數字：**台灣上市公司中超過七成屬於家族企業，非上市企業更超過九成。**\n\n這代表台灣的高資產家族，絕大多數不是「金融資產持有者」，而是**產業經營者**。他們懂製造、懂供應鏈、懂客戶，手上有實際的採購權與技術能力。這和許多國際金融中心吸引的家族辦公室客群很不一樣——後者多半長於資產配置，卻不碰產業。\n\n舉一個正在發生的場景。台積電已經要求關鍵排放源供應商簽署減排協議，並在 2026 年底前完成產品碳足跡的第三方驗證，明言未達標者將減少合作。這意味著，**台灣的家族企業本來就必須為減碳花這筆錢。**\n\n差別只在於：**你是花錢當客戶，還是花錢當股東。**\n\n一家家族企業要導入節能技術，可以向供應商採購，也可以投資一家早期的節能技術公司，同時成為它的第一個客戶。後者給出的不只是資金，還有訂單、產線驗證場域與供應鏈背書——那一張支票的額外性，是單純的財務投資人很難給得出來的。\n\n中信與政大的報告裡也舉了台達電子的例子：其基金會的公益方向與企業核心能力高度一致，「形成企業經營、社會責任與家族理念相互支持的治理模式」。我個人的延伸是：如果慈善端可以和核心能力一致，投資端為什麼不行？\n\n## 家族得到什麼\n\n談到這裡，通常會有人問：「說了半天，家族得到什麼？」這個問題必須先回答，順序反了，後面就沒有人聽。\n\n**第一，報酬不必然比較差。**依全球影響力投資聯盟（GIIN）的調查，全球影響力投資資產中 **89% 以風險調整後的市場報酬為目標**，只有 11% 刻意接受較低報酬；在其追蹤的 305 筆投資中，**94% 的財務表現符合或超過預期**。但我不會說「影響力投資不犧牲報酬」——那是行銷話術。誠實的說法是：報酬分布和一般投資一樣有好有壞，選對管理人一樣重要。犧牲報酬是一個選項，不是入場門票。\n\n**第二，它是目前最有效的家族治理工具之一。**AlTi Tiedemann 與 Campden Wealth 今年的調查顯示，已訂定正式「財富目的」框架的家族辦公室，一年內從 33% 升到 **48%**。三大動機是引導下一代（65%）、賦予保值以外的意義（61%），以及**減少家族衝突（54%）**。中信與政大的報告用了另一個說法——**降低家族合作成本**。這是經濟學的語言，對企業主更有說服力。談分產會傷感情，談「我們家的錢要促成什麼」不會。\n\n**第三，下一代真的會因此走進來。**UBS 今年調查全球 307 家家族辦公室，只有 27% 有結構化的繼承人培養流程，29% 認為財務與治理教育不足是二代參與的障礙。我常給家族一個很實際的建議：撥出總資產的 1% 到 3%，交給下一代管理一個小型影響力投資組合，配一位導師與一套真正的衡量流程。這同時訓練財務判斷、價值取捨與對外溝通——比送去念一個學位，更接近真實的接班情境。\n\n## 最便宜的，是時間\n\n最後想澄清一個讓很多家族卻步的詞：**催化資本**。\n\n很多人一聽到「催化」，就想到「第一損失」——要家族站在劣後，先承擔虧損讓別人安心進場。如果這是唯一的定義，多數家族會直接關上門，而且他們是對的。\n\n但這不是完整的定義。依 MacArthur 基金會催化資本聯盟的架構，催化資本有四個屬性：**耐心、彈性、容忍風險、優惠條件**。第一損失，只是「優惠條件」底下最昂貴的那一種。\n\n對台灣家族來說，最容易、也最被低估的其實是前兩項。**耐心**，是接受十年以上的鎖定期，不要求季度流動性——這不花一毛錢，只花時間，而多數需要定期向出資人交代績效的資金，很難等上十年。**彈性**，是願意用小額、分批、可轉換等非標準條件成交——這正是家族決策鏈短的天然優勢。\n\n而且它有很世俗的回報。香港 Sustainable Finance Initiative 今年八月的調查顯示，亞太家族辦公室在影響力投資上面臨的最大挑戰，是**優質案源與退場（26%）**，其次是找不到可信的共同投資夥伴（18%）。好案子本身就是稀缺資源，而願意當第一個說「好」的家族，往往會被優先分配到案子。第一張支票換到的，不只是情懷，還有估值、董事席次、資訊權與後續加碼權。\n\n**催化資本裡最便宜的是時間，最貴的才是損失。**如果你願意等十年，你已經是市場上最稀缺的資本之一。\n\n## 家族不必單打獨鬥\n\n還有一件事值得說清楚：家族在影響力投資裡的角色，很少是獨自完成的。\n\n最好的結構，往往是不同力量各自拿出最擅長的那一份：銀行帶來通路與結構設計，基金會帶來願意承擔損失的慈善資本，公共基金帶來政策信號與風險分攤，企業帶來訂單與產業驗證——家族則帶來時間，以及市場上買不到的特殊資產。\n\n新加坡的 Asia Impact First Fund 就是一例：兩千萬美元的基金，由星展銀行錨定一千萬美元，再由多個家族辦公室、家族基金會與企業集團共同參與。單一家族的票券可能太小、風險太集中；和其他力量一起進場，家族的時間與彈性才發揮得出來。\n\n## 放下控制之後，要有東西接住\n\n家族辦公室如果只做配置與傳承，它管理的是一筆錢；當它開始問「我們手上有哪些市場買不到的東西，可以促成什麼」，它管理的才是一個家族的下一個五十年。\n\n范博宏教授在同一個研究計畫的第一期報告裡寫過一句話：放下控制，才能換取家族五十年的長治久安。\n\n我想再補一句——**放下控制之後，要有東西接住。**接住的，是家族對「我們要促成什麼」的共識。而影響力投資，正是把這份共識變成可執行、可衡量、也能被下一代檢驗的方式。\n\n作者為台灣影響力投資協會常務理事，並為 SIC 永續影響力投資合夥人、倍恩資本董事長。",
+   "title_en": "If a Family Only Brings Money, It Brings the Most Replaceable Thing",
+   "subtitle_en": "From 'special assets' to additionality: the unique role of family capital in impact investing",
+   "tags_en": "Family offices, Impact investing",
+   "summary_en": "What families truly pass on are special assets that markets cannot supply, which is exactly how impact investing defines additionality. This piece answers the three questions families care about most: returns, governance and the next generation, and argues that the cheapest form of catalytic capital is time.",
+   "title_ja": "ファミリーが差し出すのがお金だけなら、それは最も代替可能なものだ",
+   "subtitle_ja": "「特殊資産」から「追加性」へ：インパクト投資におけるファミリーキャピタルの独自の役割",
+   "tags_ja": "ファミリーオフィス、インパクト投資",
+   "summary_ja": "ファミリーが本当に承継すべきなのは、市場では手に入らない「特殊資産」であり、それはまさにインパクト投資でいう「追加性」の定義と重なります。リターン、ガバナンス、次世代というファミリーが最も気にかける三つの問いに答え、触媒的資本のなかで最も安価なものは「時間」であると論じます。",
+   "byline": "謝文淵（台灣影響力投資協會常務理事）",
+   "byline_en": "Joseph Hsieh, Executive Director, Taiwan Impact Investing Association",
+   "byline_ja": "謝文淵（台湾インパクト投資協会 常務理事）",
+   "slug": "family-capital-more-than-money"
+  },
+  {
+   "id": "a3",
+   "title": "亞洲家族辦公室的新競賽，比的不是稅率",
+   "subtitle": "從香港、新加坡到日本：監理機關如何把「影響力」放進家族財富的制度裡",
+   "date": "2026.9.28",
+   "tags": "家族辦公室、影響力投資、政策",
+   "summary": "香港以研究定義方向，新加坡以誘因降低成本，日本以國家級平台建立共同語言。亞洲金融中心的競爭正從「稅率與門檻」轉向「誰的資本能被證明創造了什麼」。",
+   "image": "",
+   "body": "過去十年，亞洲各金融中心爭取家族辦公室的方式，大致是同一套劇本：更低的稅率、更寬的門檻、更快的設立流程。\n\n今年，劇本開始改寫了。\n\n透過協會參與的國際網絡，這一年與亞洲各地夥伴交流時，我最深的一個觀察是：幾個主要金融中心幾乎在同一時間，把「影響力」從家族財富的附加選項，移到了制度設計的核心。它們的做法各不相同，背後的邏輯卻驚人地一致。\n\n## 香港：監理機關自己下場寫報告\n\n今年三月十日，香港金融研究中心——香港金融管理局體系下的研究機構——發布了一份報告，標題直白得不像官方文件：《Beyond Wealth：透過慈善、影響力投資與風險管理，推進香港的家族辦公室生態系》。\n\n報告的數據是這樣的：香港受訪家族辦公室中，**從事慈善的比例預期將從 45% 增加到 64%，從事影響力投資的比例將從 30% 增加到 43%**；另有 91% 的受訪家辦已在香港進行投資。政策建議包括善用大灣區的跨產業網絡、推動「私人社會投資」，以及強化人才培育。\n\n我認為這份報告最重要的地方不在數字，而在**出身**。\n\n全世界很少有監理機關的研究單位，親自把「慈善」與「影響力投資」寫進家族辦公室生態系的成長主軸。這件事的效果是框架性的：當監理機關說「家辦的下一步是慈善與影響力」，金融業的商品與服務設計自然會跟著調整。\n\n這份報告也不是單獨存在。香港同時有投資推廣署的專責單位 FamilyOfficeHK 負責招商、香港財富傳承學院負責人才培育、慈善研究院推動亞洲慈善研究、政府主辦的「Wealth for Good」峰會負責國際能見度。今年修例時，還把碳權與排放額度納入家族投資控權工具的合格資產。**招商、人才、研究、慈善、論壇，五件事是一起做的。**\n\n## 新加坡：不強迫，但讓做的人更容易\n\n新加坡的做法更精巧，因為它完全不談道德。\n\n新加坡金融管理局對家族辦公室的 13O 與 13U 稅務優惠，設有一項「資本部署要求」：基金必須將至少 10% 的管理資產、或一千萬星元（取其低者）投資於本地標的。合格項目除了本地股票、債券與私募股權，**也明確包含氣候相關投資，以及涉及新加坡金融機構的混合金融安排。**\n\n最關鍵的是倍數設計：**投入混合金融的優惠資本以 1.5 倍計算，深度優惠者以 2 倍計算；捐給混合金融結構的補助，則以 2 倍計入本地營運支出。**\n\n請注意這個邏輯：**新加坡沒有要求任何家族做影響力投資，只是讓做這件事的家族，更容易達到稅務優惠的門檻。**在新加坡，做影響力配置不是「多付出」，而是「取得資格」與「降低成本」。\n\n配套同樣完整。淡馬錫信託旗下的亞洲慈善聯盟（Philanthropy Asia Alliance），承諾金額已突破十億星元，每年舉辦亞洲慈善峰會；官方支持的財富管理學院（WMI）則經營家族辦公室社群，並承辦「亞洲改變者中心」。\n\n## 日本：先畫出一張共同的地圖\n\n日本走的是另一條路，但同樣值得細看。\n\n日本的影響力投資餘額已達 **18.65 兆日圓**，較前一年成長 8%。更有意思的是成長的來源：**85% 來自既有機構加碼**。這不是一個靠新玩家湧入撐起來的市場，而是參與者持續加深部位——成熟市場的典型訊號。\n\n日本做對的是三件事同時進行：金融廳與經濟產業省設立「影響力聯盟」，把監理機關、金融機構、企業與學界召集到同一張桌子；民間的 GSG Impact 日本國家夥伴每年發布市場調查，讓所有人看同一份數據；公共年金 GPIF 把影響力導向納入永續投資政策，由公共資金帶頭示範。\n\n**沒有共同的體溫計，就不會有共同的目標。**日本的起點，其實就是一份每年固定發布的調查。\n\n## 市場端：家族辦公室正在「兩極化」\n\n這些不只是政策宣示，市場確實在動。\n\n香港 Sustainable Finance Initiative 今年八月發布的調查，樣本是 121 位亞太及其他地區的家族辦公室代表與資產所有人：**86% 已有部分永續配置；把超過五成資產配置於此的比例，從去年的 17% 跳到今年的 27%。**\n\n更值得注意的是方法的轉變：採用「系統型投資」的比例達 31%，**首度超越機會型配置**；過去常見的切割式做法，則從 18% 降到 13%。意思是，亞洲的家族辦公室不再把影響力當成投資組合角落裡的一小塊，而是開始把它變成整體配置的邏輯。\n\n該機構執行長 Katy Yung 的說法很精準：「家族辦公室不只是在承諾影響力——**他們正在為此兩極化。**」做的人愈做愈深，還沒開始的仍在門外。\n\n這份調查也有誠實的一面：**只有 36% 表示報酬符合或超過預期，54% 認為現在評估還太早。**這件事沒有那麼浪漫，也不需要被粉飾。\n\n## 亞洲家族最缺的，是衡量\n\n九月初，Bridgespan Group 與香港慈善研究院、洛克菲勒基金會、蓋茲基金會合作的研究，調查了 20 個經濟體的 186 位富裕人士與家族，其中有兩組數字特別值得亞洲家族注意。\n\n第一組是結構：**亞洲約 94% 的財富屬於第一或第二代**（全球平均 85%），**約 95% 的亞洲家族仍掌控創造財富的事業**（其他地區為 68%）。亞洲家族比西方家族更年輕，也更貼近產業。\n\n第二組是缺口：**超過八成的亞洲家族只報告「產出」**——蓋了幾間學校、訓練了幾位老師——而「成果」，例如學習成效實際改善了多少，在所有群體中都不常見。\n\n換句話說，**亞洲家族的慈善不缺錢，缺的是衡量。**這也是影響力投資與傳統慈善最根本的差別：前者要求在一開始就定義成果，並持續追蹤。\n\n## 三條路，同一個邏輯\n\n香港用研究與生態系定義方向，新加坡用誘因降低成本，日本用國家級平台建立共同語言。三條路看起來不同，背後是同一個邏輯：\n\n**制度不改變人的動機，只改變路徑的成本。**\n\n而這也意味著，亞洲金融中心之間的競爭正在換題目：從「誰的稅率更低、門檻更寬」，轉向「**誰的資本，能被證明創造了什麼**」。\n\n## 台灣在這場競賽裡的位置\n\n台灣推動亞洲資產管理中心兩年，成果是實在的：金融業資產管理規模增加 10.62 兆元，完成 52 項法規調適，承作高資產財富管理的銀行從 12 家增加到 21 家；銀行的家族辦公室顧問業務與百年信託的稅制共識，也陸續到位。\n\n但在這場新的競賽裡，台灣還沒有把「影響力」說成自己的語言。\n\n台灣其實有一項別人沒有的條件。Bridgespan 研究裡那個 95%——亞洲家族仍掌控創造財富的事業——在台灣更為明顯：上市公司逾七成、非上市逾九成是家族企業。許多金融中心吸引的是流動的金融資本；台灣擁有的，是掌握產業能力、供應鏈關係與製造知識的家族。**這種資本一旦轉向，能改變的不只是投資組合，還有整條產業鏈。**\n\n台灣不需要複製任何一條路。但值得先回答的是：在這場亞洲的新競賽裡，我們希望別人記得台灣的，是更低的門檻，還是**更有能力證明自己創造了什麼的資本**？\n\n作者為台灣影響力投資協會常務理事，並為 SIC 永續影響力投資合夥人、倍恩資本董事長。",
+   "title_en": "Asia's New Family Office Race Isn't About Tax Rates",
+   "subtitle_en": "From Hong Kong and Singapore to Japan: how regulators are building impact into the rules for family wealth",
+   "tags_en": "Family offices, Impact investing, Policy",
+   "summary_en": "Hong Kong sets direction through research, Singapore lowers costs through incentives, and Japan builds a shared language through a national platform. Competition among Asia's financial centers is shifting from tax rates and thresholds to whose capital can prove what it created.",
+   "title_ja": "アジアのファミリーオフィス誘致競争、問われるのは税率ではない",
+   "subtitle_ja": "香港・シンガポールから日本まで：規制当局はいかにして「インパクト」をファミリー資産の制度に組み込んでいるか",
+   "tags_ja": "ファミリーオフィス、インパクト投資、政策",
+   "summary_ja": "香港は研究で方向性を示し、シンガポールはインセンティブでコストを下げ、日本は国家レベルのプラットフォームで共通言語をつくっています。アジアの金融センター間の競争は、「税率と基準」から「誰の資本が何を生み出したかを証明できるか」へと移りつつあります。",
+   "byline": "謝文淵（台灣影響力投資協會常務理事）",
+   "byline_en": "Joseph Hsieh, Executive Director, Taiwan Impact Investing Association",
+   "byline_ja": "謝文淵（台湾インパクト投資協会 常務理事）",
+   "slug": "asia-family-office-race"
+  }
+ ],
+ "news": {
+  "weeks": [
+   {
+    "week": "2026-09-28",
+    "label": "2026 年 9 月第 4 週",
+    "items": {
+     "impact": [
+      {
+       "title_zh": "美國氣候政策退場之際，亞洲投資人接手氣候融資主導權",
+       "title_en": "As the US retreats, Asia's investors take the lead on climate financing",
+       "title_ja": "米国が後退する中、アジアの投資家が気候ファイナンスを主導",
+       "sum_zh": "淡馬錫、曹氏家族辦公室等亞洲資金方表示，區域氣候與綠色投資並未放緩；以亞太海洋新創為對象的 Asia Ocean Fund 目標規模 7,500 萬美元、預計投資 30 家。",
+       "sum_en": "Asian asset owners including Temasek and the Tsao Family Office say regional climate investing is pressing ahead; the Asia Ocean Fund targets $75M across 30 Asia-Pacific deals.",
+       "sum_ja": "テマセクや曹氏ファミリーオフィスなどアジアの資金提供者は、域内の気候・グリーン投資は減速していないと強調。アジア太平洋の海洋系スタートアップを対象とするAsia Ocean Fundは目標7,500万ドル、30件の投資を予定。",
+       "source": "ImpactAlpha",
+       "date": "2026-09-22",
+       "url": "https://impactalpha.com/as-us-retreats-asias-investors-take-the-lead-on-climate-financing/"
+      },
+      {
+       "title_zh": "性別視角投資轉向公開市場，2X Global 目標 2027 年前新增 200 億美元",
+       "title_en": "Gender-lens investors look to scale capital in public markets",
+       "title_ja": "ジェンダー・レンズ投資が公開市場へ、2X Globalは2027年までに200億ドル追加を目標",
+       "sum_zh": "2X Global 蒙特婁年會聚集 44 國、270 位與會者，討論將性別視角投資從私募延伸至公開股債市場；加拿大 FinDev Canada 同步宣布投入 3,000 萬加元。",
+       "sum_en": "At 2X Global's Montreal summit (270 participants from 44 countries), investors pushed to extend gender-lens strategies into public equities and debt, targeting $20B in new capital by 2027; FinDev Canada committed C$30M.",
+       "sum_ja": "2X Globalのモントリオール会合（44カ国・270人）で、ジェンダー・レンズ投資を公開株式・債券へ広げる議論が進展。2027年までに200億ドルの新規資金を目指し、FinDev Canadaは3,000万加ドルを表明。",
+       "source": "ImpactAlpha",
+       "date": "2026-09-24",
+       "url": "https://impactalpha.com/gender-lens-investors-look-to-scale-capital-in-public-markets/"
+      },
+      {
+       "title_zh": "GIIN 共同創辦人 Amit Bouri 卸任前受訪：市場已達 1.5 兆美元，系統性進展仍不足",
+       "title_en": "GIIN's Amit Bouri reflects as he steps down after 17 years",
+       "title_ja": "GIIN共同創設者アミット・ボウリ氏、17年の任期を終えるにあたり振り返る",
+       "sum_zh": "領導全球影響力投資網絡（GIIN）17 年的 Bouri 將於 10 月阿姆斯特丹年會後卸任；他指出市場規模已由 2019 年約 5,000 億美元成長至 1.5 兆美元，但全球層面的系統性改變仍未到位。",
+       "sum_en": "Bouri, who led the GIIN for 17 years, steps down after the October Amsterdam forum; the market grew from about $500B (2019) to $1.5T, yet he says systemic progress remains insufficient.",
+       "sum_ja": "17年間GIINを率いたボウリ氏は10月のアムステルダム・フォーラム後に退任。市場規模は2019年の約5,000億ドルから1.5兆ドルに拡大したが、世界的な構造変化はまだ不十分だと述べた。",
+       "source": "ImpactAlpha",
+       "date": "2026-09-24",
+       "url": "https://impactalpha.com/amit-bouri-looks-past-the-giin-for-his-next-act-of-impact-leadership-podcast/"
+      },
+      {
+       "title_zh": "紐約氣候週：McKnight 基金會推 1.5 億美元基金，支持社區自有氣候專案",
+       "sum_zh": "McKnight 基金會在美國中西部七州盤點逾 110 個社區自有氣候專案、總成本約 4.5 億美元，並與夥伴設立 1.5 億美元的 Power & Place 基金補足資金缺口；同期氣候專業創投募資明顯降溫。",
+       "title_en": "Climate Week NYC: McKnight backs a $150M fund for community-owned climate projects",
+       "sum_en": "McKnight Foundation mapped 110+ community-owned climate projects across seven Midwest states (about $450M in total cost) and helped launch the $150M Power & Place fund to close the gap, even as climate-specialist VC fundraising slows.",
+       "title_ja": "NY気候ウィーク：マックナイト財団、地域主体の気候プロジェクトに1.5億ドル基金",
+       "sum_ja": "マックナイト財団は米中西部7州で110件超の地域所有型気候プロジェクト（総事業費約4.5億ドル）を特定し、資金ギャップを埋める1.5億ドルのPower & Placeファンドを立ち上げ。一方、気候特化型VCの資金調達は減速。",
+       "source": "ImpactAlpha",
+       "date": "2026-09-25",
+       "url": "https://impactalpha.com/hoax-this-climate-week-nyc-showcases-real-solutions-to-really-real-climate-change/"
+      }
+     ],
+     "gvc": [
+      {
+       "title_zh": "Bessemer 完成 57.5 億美元新基金，全面押注 AI 原生企業",
+       "title_en": "Bessemer Venture Partners closes $5.75B for AI-native founders",
+       "title_ja": "Bessemerが57.5億ドルの新ファンドを組成、AIネイティブ企業に注力",
+       "sum_zh": "資金分為 17.5 億美元種子與早期基金、40 億美元成長基金，涵蓋算力、基礎模型到應用與 Agent 的 AI 全產業鏈。",
+       "sum_en": "The raise splits into $1.75B for seed/early stage and $4B for growth, targeting AI-native companies from infrastructure and models to apps and agents.",
+       "sum_ja": "内訳はシード・アーリー向け17.5億ドル、グロース向け40億ドル。インフラ・基盤モデルからアプリ、エージェントまでAIネイティブ企業に投資する。",
+       "source": "Bessemer Venture Partners",
+       "date": "2026-09-23",
+       "url": "https://finance.yahoo.com/technology/ai/articles/bessemer-venture-partners-closes-5-150000318.html"
+      },
+      {
+       "title_zh": "本週全球十大募資：資安雙雄 Island、Cyera 各募 4 億美元",
+       "title_en": "The week's 10 biggest rounds: Island and Cyera lead with $400M each",
+       "title_ja": "今週の大型調達トップ10：セキュリティのIsland、Cyeraが各4億ドル",
+       "sum_zh": "Island（估值 64 億美元）與 Cyera 各完成 4 億美元募資，Snorkel AI 以 32 億美元估值募得 3.5 億美元；資安、AI 與醫療科技主導本週大型交易。",
+       "sum_en": "Island ($6.4B valuation) and Cyera each raised $400M, while Snorkel AI raised $350M at $3.2B; security, AI and health dominated the week's megadeals.",
+       "sum_ja": "Island（評価額64億ドル）とCyeraがそれぞれ4億ドル、Snorkel AIが評価額32億ドルで3.5億ドルを調達。セキュリティ、AI、ヘルスケアが大型案件を主導。",
+       "source": "Crunchbase News",
+       "date": "2026-09-25",
+       "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cybersecurity-ai-health-island-cyera/"
+      },
+      {
+       "title_zh": "億元級 A 輪成常態：2026 年至少 114 筆逾 1 億美元 A 輪",
+       "title_en": "Jumbo-sized Series A rounds are on the rise",
+       "title_ja": "超大型シリーズAが増加：2026年は1億ドル超が少なくとも114件",
+       "sum_zh": "今年全球逾 1 億美元的 A 輪至少 114 筆、合計約 330 億美元，可望創歷史新高；其中七成以上流向 AI 新創，約半數在美國。",
+       "sum_en": "At least 114 Series A rounds of $100M+ have closed globally in 2026, totaling roughly $33B and on pace for a record; over 70% went to AI startups.",
+       "sum_ja": "2026年に世界で1億ドル超のシリーズAは少なくとも114件、総額約330億ドルで過去最高ペース。7割超がAIスタートアップ向け。",
+       "source": "Crunchbase News",
+       "date": "2026-09-23",
+       "url": "https://news.crunchbase.com/venture/megaround-seriesa-ai-chips-robotics-2026/"
+      }
+     ],
+     "twvc": [
+      {
+       "title_zh": "FunNow 獲和泰汽車 1,000 萬美元 C 輪投資，攜手首攻日本市場",
+       "title_en": "FunNow raises $10M Series C from Hotai Motor, targeting Japan",
+       "title_ja": "FunNowが和泰汽車から1,000万ドルのシリーズCを調達、日本市場を開拓",
+       "sum_zh": "即時預訂平台 FunNow 完成約新台幣 3.18 億元 C 輪，將與和泰旗下旅遊平台 chicTrip 整合服務，資金用於海外擴張與 AI 研發；公司已於 7 月簽署上市輔導。",
+       "sum_en": "Instant-booking platform FunNow closed a ~NT$318M Series C from Hotai Motor, integrating with Hotai's chicTrip travel platform to expand into Japan and invest in AI; it entered IPO counseling in July.",
+       "sum_ja": "即時予約プラットフォームのFunNowが和泰汽車から約3.18億台湾ドルのシリーズCを調達。和泰の旅行プラットフォームchicTripと連携し日本市場とAI開発に投資。7月に上場準備契約を締結済み。",
+       "source": "Meet創業小聚",
+       "date": "2026-09-23",
+       "url": "https://meet.bnext.com.tw/articles/view/53533"
+      },
+      {
+       "title_zh": "第四屆渣打女力創業獎揭曉，長者送餐平台奪冠",
+       "title_en": "Standard Chartered Women Entrepreneurship Award names its fourth-cohort winners",
+       "title_ja": "第4回スタンダードチャータード女性起業賞、高齢者向け配食プラットフォームが優勝",
+       "sum_zh": "由渣打銀行、立人社會福利基金會與 Impact Hub Taipei 合辦，前三名為長者送餐照護、心輔犬訓練與 AI 量身內衣平台；計畫自 2023 年起已培育近 120 家女性創業團隊。",
+       "sum_en": "Co-run by Standard Chartered, the Lih Jen Foundation and Impact Hub Taipei, the award's top three were an elder meal-delivery platform, a service-dog team and an AI fit-tech brand; nearly 120 women-led teams have been trained since 2023.",
+       "sum_ja": "スタンダードチャータード銀行、立人社会福祉基金会、Impact Hub Taipeiの共催。上位3チームは高齢者配食、心理支援犬の訓練、AIフィッティング技術。2023年以降、約120の女性起業チームを育成。",
+       "source": "Meet創業小聚",
+       "date": "2026-09-24",
+       "url": "https://meet.bnext.com.tw/articles/view/53537"
+      },
+      {
+       "title_zh": "LANDED 以 12 個月加速計畫，協助台灣新創落地美國",
+       "title_en": "LANDED's 12-month program helps Taiwanese startups land in the US",
+       "title_ja": "LANDED、12カ月のプログラムで台湾スタートアップの米国進出を支援",
+       "sum_zh": "紐約台裔創業者黃聖安創辦的 LANDED 採「市場驗證、營收、募資」三階段，自 2025 年起已輔導 9 家新創，其中保險科技 Qlo 入選 YC 2026 夏季梯次。",
+       "sum_en": "Founded by New York-based Taiwanese entrepreneur Huang Sheng-an, LANDED runs a three-phase program (validation, revenue, fundraising) and has backed nine startups since 2025, including YC S26 insurtech Qlo.",
+       "sum_ja": "ニューヨーク在住の台湾系起業家・黄聖安氏が設立したLANDEDは、市場検証・売上・資金調達の3段階で支援。2025年以降9社を支援し、保険テックのQloはYC 2026年夏バッチに採択。",
+       "source": "Meet創業小聚",
+       "date": "2026-09-24",
+       "url": "https://meet.bnext.com.tw/articles/view/53538"
+      }
+     ],
+     "fo": [
+      {
+       "title_zh": "花旗：亞太家族辦公室直接投資與 AI 布局領先全球",
+       "title_en": "Citi: Asia-Pacific family offices lead in direct investing and AI",
+       "title_ja": "シティ：アジア太平洋のファミリーオフィスが直接投資とAIで世界をリード",
+       "sum_zh": "花旗 2026 全球家族辦公室報告亞太篇顯示，79% 參與直接投資、80% 將 AI 列為主要布局產業，均居全球之冠；26% 今年以來報酬逾 15%。",
+       "sum_en": "Citi's 2026 survey found 79% of APAC family offices invest directly and 80% name AI a primary sector focus, both the highest globally; 26% report YTD returns above 15%.",
+       "sum_ja": "シティの2026年調査によると、アジア太平洋のファミリーオフィスの79%が直接投資を行い、80%がAIを主要注力分野に挙げ、いずれも世界最高。26%が年初来15%超のリターン。",
+       "source": "Citi Wealth / Taiwan News",
+       "date": "2026-09-22",
+       "url": "https://www.taiwannews.com.tw/news/6444545"
+      },
+      {
+       "title_zh": "TMF Group：家辦轉向多司法管轄區布局，新加坡、香港受矚目",
+       "title_en": "TMF Group: family offices rethink how they choose jurisdictions",
+       "title_ja": "TMF Group：ファミリーオフィスは複数法域戦略へ、シンガポールと香港に注目",
+       "sum_zh": "僅 31% 家辦以接近投資資產為選址首要考量，政治與經濟穩定各占 23%；多數家辦不再整體遷移，而是隨業務擴張增設據點，新加坡與香港皆為區域樞紐。",
+       "sum_en": "Only 31% of family offices pick a jurisdiction mainly for proximity to assets, with political and economic stability at 23% each; most now add jurisdictions rather than relocate, with Singapore and Hong Kong as key hubs.",
+       "sum_ja": "拠点選定で資産への近さを最重視するのは31%にとどまり、政治的・経済的安定がそれぞれ23%。多くは移転ではなく拠点追加を選び、シンガポールと香港が中核ハブに。",
+       "source": "TMF Group / PR Newswire",
+       "date": "2026-09-24",
+       "url": "https://www.prnewswire.com/apac/zh/news-releases/tmf-group-302888927.html"
+      },
+      {
+       "title_zh": "凱雷延攬兩位高階主管，擴大家族辦公室業務",
+       "title_en": "Carlyle hires two executives to lead its family office business",
+       "title_ja": "カーライル、ファミリーオフィス事業強化へ幹部2人を採用",
+       "sum_zh": "凱雷延攬 David Seeberan 出任全球家族辦公室部門主管、前貝萊德的 Victoria Matthews 負責歐洲與亞洲，呼應其 2028 年前向高資產客群募集逾 2,000 億美元的目標。",
+       "sum_en": "Carlyle named David Seeberan global head of its family office group and ex-BlackRock Victoria Matthews to lead Europe and Asia, supporting its goal of raising $200B+ from private wealth by 2028.",
+       "sum_ja": "カーライルはデビッド・シーベラン氏をファミリーオフィス部門のグローバル責任者に、元ブラックロックのビクトリア・マシューズ氏を欧州・アジア担当に任命。2028年までに富裕層から2,000億ドル超を集める目標を後押し。",
+       "source": "Bloomberg",
+       "date": "2026-09-25",
+       "url": "https://www.bloomberg.com/news/articles/2026-09-25/carlyle-hires-two-executives-to-lead-family-office-business"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "settings": {
+  "hide": {
+   "events": true
+  },
+  "siteUrl": "https://joseph-hsieh.com"
+ },
+ "orgs": [
+  {
+   "name": "SIC 永續影響力投資",
+   "name_en": "Sustainable Impact Capital (SIC)",
+   "name_ja": "SIC 永続インパクト投資",
+   "role": "GP 一般合夥人",
+   "role_en": "General Partner",
+   "role_ja": "GP（ジェネラル・パートナー）",
+   "desc": "SIC 成立於 2022 年，是台灣最具規模且活躍的天使投資社群之一，成員涵蓋創業家、企業二代與資深高階經理人。投資聚焦 AI、智慧製造、醫療健康、農業科技與循環經濟，並連結台灣半導體與 AI 供應鏈。",
+   "desc_en": "Founded in 2022, SIC is one of Taiwan's largest and most active angel investor communities, bringing together founders, next-generation business owners and senior executives. It invests in AI, smart manufacturing, healthcare, agritech and the circular economy, and connects startups to Taiwan's semiconductor and AI supply chains.",
+   "desc_ja": "SICは2022年に設立された、台湾で最大規模かつ最も活発なエンジェル投資家コミュニティの一つです。起業家、事業承継世代、経験豊富な経営幹部が参加し、AI、スマート製造、ヘルスケア、アグリテック、サーキュラーエコノミーに投資するとともに、台湾の半導体・AIサプライチェーンとの橋渡しを行っています。",
+   "points": "天使合投（Syndicate）搭配創業者一號投資（SPV），分別承接早期與中後期穩定項目\n與美國亞利桑那州商業局簽署跨國科技新創投資 MOU\n與新加坡天使網絡 AngelCentral 簽署 MOU，推動亞太案源共享\n三年舉辦逾 220 場社群活動，每年評估逾 200 個項目",
+   "points_en": "Angel syndicates alongside Sustainable Founders Capital 1 (SPV), covering early-stage and later-stage growth companies\nMOU with the Arizona Commerce Authority on cross-border technology startup investment\nMOU with Singapore's AngelCentral to share deal flow across Asia-Pacific\nMore than 220 community events in three years; over 200 companies evaluated each year",
+   "points_ja": "エンジェル共同投資（シンジケート）と創業者一号投資（SPV）で、アーリーステージから安定成長期までをカバー\n米アリゾナ州商務局と越境テック・スタートアップ投資に関するMOUを締結\nシンガポールのエンジェルネットワーク AngelCentral とMOUを締結し、アジア太平洋の案件を共有\n3年間で220回以上のコミュニティイベントを開催、年間200件以上の案件を評価",
+   "url": "https://sicglobal.net/",
+   "stats": [
+    {
+     "n": "~200",
+     "u": "位",
+     "l": "天使投資人",
+     "u_en": "",
+     "l_en": "Angel investors",
+     "n_ja": "約200",
+     "u_ja": "名",
+     "l_ja": "エンジェル投資家"
+    },
+    {
+     "n": "38",
+     "u": "家",
+     "l": "投資組合新創",
+     "u_en": "",
+     "l_en": "Portfolio companies",
+     "u_ja": "社",
+     "l_ja": "投資先スタートアップ"
+    },
+    {
+     "n": "~7",
+     "u": "百萬美元",
+     "l": "總投資金額",
+     "n_en": "~$7M",
+     "u_en": "",
+     "l_en": "Total invested",
+     "n_ja": "約700",
+     "u_ja": "万米ドル",
+     "l_ja": "投資総額"
+    },
+    {
+     "n": "~16",
+     "u": "百萬美元",
+     "l": "共伴投資金額",
+     "n_en": "~$16M",
+     "u_en": "",
+     "l_en": "Co-investment mobilized",
+     "n_ja": "約1,600",
+     "u_ja": "万米ドル",
+     "l_ja": "共同投資額"
+    },
+    {
+     "n": "95",
+     "u": "%",
+     "l": "投資組合三年存活率",
+     "l_en": "Three-year portfolio survival rate",
+     "l_ja": "投資先の3年生存率"
+    },
+    {
+     "n": "13+",
+     "u": "城市",
+     "l": "橫跨五大洲的投資人網絡",
+     "u_en": "cities",
+     "l_en": "Investor network across five continents",
+     "u_ja": "都市",
+     "l_ja": "5大陸にまたがる投資家ネットワーク"
+    }
+   ]
+  },
+  {
+   "name": "台灣影響力投資協會（TIIA）",
+   "name_en": "Taiwan Impact Investing Association (TIIA)",
+   "name_ja": "台湾インパクト投資協会（TIIA）",
+   "role": "常務理事・創始會員",
+   "role_en": "Executive Director · Founding member",
+   "role_ja": "常務理事・創設メンバー",
+   "desc": "台灣影響力投資協會於 2020 年 12 月正式成立，是非營利、非政治的民間組織。以「引領市場資本，共創永續價值」為願景，推動台灣影響力投資生態系的建立，倡議投資在追求財務報酬的同時，也為社會與環境創造正面、可衡量的影響力，並接軌聯合國永續發展目標（SDGs）。",
+   "desc_en": "Founded in December 2020, TIIA is a non-profit, non-political civic organization. Its vision is to mobilize market capital for shared, sustainable value: building Taiwan's impact investing ecosystem and advocating investments that deliver financial returns alongside positive, measurable social and environmental impact, in line with the UN Sustainable Development Goals.",
+   "desc_ja": "台湾インパクト投資協会は2020年12月に正式に設立された、非営利・非政治の民間団体です。「市場の資本を導き、持続可能な価値を共に創る」をビジョンに、台湾のインパクト投資エコシステムの構築を推進し、財務リターンとともに社会・環境に測定可能なプラスの影響を生み出す投資を提唱しています。国連の持続可能な開発目標（SDGs）とも連動しています。",
+   "points": "每年主辦台灣影響力投資國際論壇（TIIF），2026 年為第六屆\n國際網絡：GSG Impact、GIIN 聯盟夥伴、AVPN 會員\n定期主題論壇、校園講座與培訓課程\n研究出版與政策建言，推動影響力投資制度化",
+   "points_en": "Hosts the annual Taiwan Impact Investing Forum (TIIF); 2026 marks the sixth edition\nInternational network: GSG Impact, GIIN alliance partner, AVPN member\nRegular themed forums, campus talks and training programs\nResearch publications and policy recommendations to institutionalize impact investing",
+   "points_ja": "台湾インパクト投資国際フォーラム（TIIF）を毎年主催。2026年で第6回\n国際ネットワーク：GSG Impact、GIIN アライアンス・パートナー、AVPN 会員\nテーマ別フォーラム、大学での講演、研修プログラムを定期開催\n調査研究の発信と政策提言により、インパクト投資の制度化を推進",
+   "url": "https://tiia.tw/",
+   "stats": []
+  },
+  {
+   "name": "跨境創新創業交流協會（CIEA）",
+   "name_en": "Cross-Border Innovation & Entrepreneurship Association (CIEA)",
+   "name_ja": "越境イノベーション起業交流協会（CIEA）",
+   "role": "常務理事",
+   "role_en": "Executive Director",
+   "role_ja": "常務理事",
+   "desc": "跨境創新創業交流協會以「整合跨界資源，協助臺灣創業者落實創新發想」為核心理念，連結創業家、企業經營者、投資人與專業服務者，為臺灣創業者拓展發展空間與國際交流機會。",
+   "desc_en": "CIEA's core mission is to bring together cross-sector resources to help Taiwanese entrepreneurs turn innovative ideas into reality. It connects founders, business owners, investors and professional service providers, opening up room to grow and international exchange opportunities for Taiwan's entrepreneurs.",
+   "desc_ja": "越境イノベーション起業交流協会は、「分野を越えた資源を統合し、台湾の起業家がイノベーションの構想を実現できるよう支援する」ことを基本理念としています。起業家、経営者、投資家、専門サービス事業者をつなぎ、台湾の起業家に成長の場と国際交流の機会を提供しています。",
+   "points": "每月創業講座與主題工作坊\n各地會員創業小聚與經驗分享\n海外交流參訪，如日本福岡、新加坡\nAI、跨境電商等實務課程與資源媒合",
+   "points_en": "Monthly entrepreneurship lectures and themed workshops\nMember meetups and experience sharing across Taiwan\nOverseas exchange visits, such as Fukuoka and Singapore\nPractical courses on AI and cross-border e-commerce, plus resource matching",
+   "points_ja": "毎月の起業講座とテーマ別ワークショップ\n各地での会員交流会と経験共有\n福岡、シンガポールなどへの海外交流視察\nAI、越境ECなどの実務講座とリソースのマッチング",
+   "url": "https://www.ciea.tw/",
+   "stats": []
+  }
+ ]
+}

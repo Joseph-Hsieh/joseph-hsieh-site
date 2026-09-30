@@ -313,6 +313,8 @@ def article_cards(L, items):
     for i, a in enumerate(items):
         href = art_path(a, L)
         meta = '<span class="mono">%s</span>' % esc(a.get("date")) + "".join('<span class="chip">%s</span>' % esc(t) for t in tags(T(a, "tags", L)))
+        if a.get("published_in"):
+            meta += '<span class="chip pub">%s</span>' % esc({"zh": "鉅亨網刊登", "en": "As seen on Anue", "ja": "鉅亨網に掲載"}[L] if "cnyes" in a["published_in"][0]["url"] else T(a["published_in"][0], "name", L))
         thumb = ('<div class="thumb"><img src="%s" alt="" loading="lazy"></div>' % esc(a["image"])) if a.get("image") else \
             '<div class="thumb empty" aria-hidden="true">%s</div>' % esc((a.get("title") or "")[:1])
         out.append(
@@ -463,6 +465,12 @@ def build_article(L, a):
         PREFIX[L], U["home"], PREFIX[L], U["articles"], esc(a.get("date")), esc(" · ".join(tags(T(a, "tags", L)))), esc(title),
         '<p class="sub">%s</p>' % esc(T(a, "subtitle", L)) if a.get("subtitle") else "", U["by"], esc(by),
         share_bar(abs_url(path), title, L))
+    pubs = a.get("published_in") or []
+    if pubs:
+        lab = {"zh": "本文亦刊登於", "en": "Also published in", "ja": "本稿は次の媒体にも掲載されました："}[L]
+        suffix = {"zh": "", "en": " (Chinese)", "ja": "（中国語）"}[L]
+        head_html += '<p class="pubnote">%s %s</p>' % (lab, "、".join(
+            '<a href="%s" target="_blank" rel="noopener">%s</a>%s' % (esc(x["url"]), esc(T(x, "name", L)), suffix) for x in pubs))
     if body_text:
         content = '<div class="md">%s</div>' % md(body_text)
     else:
@@ -486,6 +494,8 @@ def build_article(L, a):
         "publisher": {"@type": "Person", "@id": PERSON_ID, "name": P["name_en"]},
         "image": abs_url(img or "/assets/og-%s.jpg" % L), "mainEntityOfPage": abs_url(path),
         "keywords": ", ".join(tags(T(a, "tags", L))),
+        "subjectOf": [{"@type": "NewsArticle", "url": x["url"], "publisher": {"@type": "Organization", "name": x.get("name_en") or x["name"]},
+                       "datePublished": x.get("date")} for x in (a.get("published_in") or [])] or None,
     }, {
         "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": U["home"], "item": abs_url(PREFIX[L])},

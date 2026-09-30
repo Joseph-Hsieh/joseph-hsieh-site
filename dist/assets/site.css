@@ -298,3 +298,6 @@ a.art:hover{color:inherit}
 .js .panel[hidden]{display:none}
 footer .langs-foot{margin-left:auto;display:flex;gap:14px}
 footer a{color:var(--muted)}
+.reader .pubnote{font-size:14px;color:var(--muted);margin:-8px 0 24px}
+.reader .pubnote a{font-weight:700;color:var(--ink)}
+.chip.pub{color:var(--accent)}

@@ -570,6 +570,8 @@ def llms_txt():
               "## Insights"]
     for a in ARTICLES:
         lines_.append("- [%s](%s): %s" % (a["title"], abs_url(art_path(a, "zh")), plain(a.get("summary_en") or a.get("summary"), 240)))
+        if a.get("body_en"):
+            lines_.append("  - English: [%s](%s)" % (a.get("title_en"), abs_url(art_path(a, "en"))))
     lines_ += ["", "## Weekly Brief", "- [Weekly Brief (English)](%s/en/news/)" % SITE, "- [每週觀察](%s/news/)" % SITE, "",
                "## Contact", "- Email: %s" % P["email"]] + ["- %s" % P[k] for k in ("linkedin", "facebook", "instagram") if P.get(k)]
     return "\n".join(lines_) + "\n"

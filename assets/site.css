@@ -18,6 +18,7 @@
   color-scheme:dark;--bg:#0E0E0E;--surface:#0E0E0E;--panel:#181818;--ink:#F2F2F2;--text:#D6D6D6;--muted:#9A9A9A;--line:#2A2A2A;--rule:#F2F2F2;--grid:#151515;
   --accent:#FF7A3D;--accent-ink:#0E0E0E;--accent-soft:#3A2016;--danger:#FF7A6A;
   --blue:#F2F2F2;--green:#F2F2F2;--orange:#FF7A3D;--gold:#9A9A9A;--soft:#181818;--blue-soft:#181818;--green-soft:#181818;--orange-soft:#3A2016;}
+html[lang="zh-Hans"]{--serif:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;--sans:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif}
 html[lang="ja"]{--serif:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif;--sans:"Noto Sans JP","Hiragino Sans","Yu Gothic",system-ui,sans-serif}
 html[lang="en"]{--serif:"Archivo","Noto Sans TC","Helvetica Neue",Arial,sans-serif;--sans:"Archivo","Noto Sans TC","Helvetica Neue",Arial,sans-serif}
 *{box-sizing:border-box}
@@ -54,7 +55,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:900;text-wrap:balance;line-height:
 .hero > div:first-child{grid-column:1 / span 8;display:grid;grid-template-columns:repeat(8,minmax(0,1fr));column-gap:20px}
 .hero > div:first-child > *{grid-column:1 / -1}
 .eyebrow{font-family:var(--latin);font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:28px}
-html[lang="zh-Hant"] .eyebrow,html[lang="ja"] .eyebrow{font-family:var(--sans);letter-spacing:.06em}
+html[lang="zh-Hant"] .eyebrow,html[lang="zh-Hans"] .eyebrow,html[lang="ja"] .eyebrow{font-family:var(--sans);letter-spacing:.06em}
 .hero h1{font-size:clamp(34px,6.2vw,78px);line-height:1.12;font-weight:900}
 .hero h1::after{content:"";display:block;width:180px;height:10px;background:var(--accent);margin-top:36px}
 .motto{grid-column:1 / span 3!important;grid-row:3;font-family:var(--latin);font-weight:800;font-size:clamp(18px,1.9vw,22px);text-transform:uppercase;line-height:1.25;letter-spacing:.01em;color:var(--ink);margin:30px 0 0}
@@ -84,7 +85,7 @@ html[lang="zh-Hant"] .eyebrow,html[lang="ja"] .eyebrow{font-family:var(--sans);l
 .letter .body{grid-column:6 / span 7}
 .letter h2{font-size:32px}
 .letter .kick{font-family:var(--latin);font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:10px}
-html[lang="zh-Hant"] .letter .kick,html[lang="ja"] .letter .kick{font-family:var(--sans)}
+html[lang="zh-Hant"] .letter .kick,html[lang="zh-Hans"] .letter .kick,html[lang="ja"] .letter .kick{font-family:var(--sans)}
 .letter .body p{margin:0 0 1em;font-size:18px;line-height:1.95;color:var(--text)}
 .letter .sig{font-weight:900;font-size:20px;color:var(--ink);margin:0}
 .letter .sig::before{content:"";display:inline-block;width:24px;height:3px;background:var(--accent);vertical-align:middle;margin-right:10px}
@@ -261,7 +262,7 @@ footer{margin-top:72px;padding-block:24px;border-top:2px solid var(--rule);displ
 .skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:var(--bg);padding:8px 12px;z-index:99}
 .skip:focus{left:12px;top:12px}
 .hero h1 .h1-name{display:block;font-family:var(--latin);font-size:15px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);margin-bottom:18px;line-height:1.4}
-html[lang="zh-Hant"] .hero h1 .h1-name,html[lang="ja"] .hero h1 .h1-name{font-family:var(--sans);letter-spacing:.08em}
+html[lang="zh-Hant"] .hero h1 .h1-name,html[lang="zh-Hans"] .hero h1 .h1-name,html[lang="ja"] .hero h1 .h1-name{font-family:var(--sans);letter-spacing:.08em}
 .art{text-decoration:none}
 a.art:hover{color:inherit}
 .more{margin-top:28px}

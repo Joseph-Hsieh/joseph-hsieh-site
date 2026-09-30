@@ -14,7 +14,7 @@ CJK = "/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc"
 CJK_R = "/usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc"
 if not os.path.exists(CJK_R):
     CJK_R = "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc"
-IDX = {"zh": 3, "ja": 0, "en": 3}  # TC / JP face index inside the .ttc
+IDX = {"zh": 3, "sc": 2, "ja": 0, "en": 3}  # TC / JP face index inside the .ttc
 INK, ORANGE, BG, MUTED = (17, 17, 17), (253, 105, 37), (255, 255, 255), (107, 107, 107)
 photo = Image.open(os.path.join(ROOT, P["photo"].lstrip("/"))).convert("RGB")
 
@@ -59,14 +59,26 @@ def card(L, kicker, title, sub, dest):
     im.save(os.path.join(ROOT, dest), quality=86, optimize=True, progressive=True)
 
 
+import sys
+sys.path.insert(0, os.path.join(ROOT, "vendor"))
+from opencc import OpenCC
+_cc = OpenCC("t2s")
+
+
+def sc(t):
+    return _cc.convert(t or "").replace("「", "“").replace("」", "”")
+
+
 def T(o, k, L):
+    if L == "sc":
+        return sc(o.get(k))
     return o.get(k) if L == "zh" else (o.get(k + "_" + L) or o.get(k))
 
 
-NAME = {"zh": P["name_zh"] + "  " + P["name_en"], "en": P["name_en"], "ja": P["name_zh"] + "  " + P["name_en"]}
-HEAD = {"zh": P.get("headline", "").replace("\n", ""), "en": P.get("headline_en", "").replace("\n", " "), "ja": P.get("headline_ja", "").replace("\n", "")}
-TAGS = {L: (T(P, "tags", L) or "").replace("、", " · ").replace(", ", " · ") for L in ("zh", "en", "ja")}
-for L in ("zh", "en", "ja"):
+NAME = {"sc": sc(P["name_zh"]) + "  " + P["name_en"], "zh": P["name_zh"] + "  " + P["name_en"], "en": P["name_en"], "ja": P["name_zh"] + "  " + P["name_en"]}
+HEAD = {"sc": sc(P.get("headline", "")).replace("\n", ""), "zh": P.get("headline", "").replace("\n", ""), "en": P.get("headline_en", "").replace("\n", " "), "ja": P.get("headline_ja", "").replace("\n", "")}
+TAGS = {L: (T(P, "tags", L) or "").replace("、", " · ").replace(", ", " · ") for L in ("zh", "sc", "en", "ja")}
+for L in ("zh", "sc", "en", "ja"):
     card(L, NAME[L], HEAD[L], TAGS[L], "assets/og-%s.jpg" % L)
     for a in D["articles"]:
         card(L, NAME[L], T(a, "title", L), T(a, "subtitle", L) or "", "assets/og/%s-%s.jpg" % (a["slug"], L))

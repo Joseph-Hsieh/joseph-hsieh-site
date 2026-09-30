@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Static site builder for joseph-hsieh.com.
 
-Reads data/site.json and writes a complete trilingual static site to dist/.
+Reads data/site.json and writes the complete four-language static site (zh-Hant, zh-Hans, en, ja) to dist/.
 Uses only the Python standard library, so it runs as-is on Cloudflare Pages
 (build command: python3 build.py, output directory: dist).
 """
@@ -18,11 +18,11 @@ DATA = json.load(open(os.path.join(ROOT, "data", "site.json"), encoding="utf-8")
 SITE = (DATA.get("settings", {}).get("siteUrl") or "https://joseph-hsieh.com").rstrip("/")
 P = DATA["profile"]
 
-LANGS = ["zh", "en", "ja"]
-HTML_LANG = {"zh": "zh-Hant", "en": "en", "ja": "ja"}
-HREFLANG = {"zh": "zh-Hant", "en": "en", "ja": "ja"}
-OG_LOCALE = {"zh": "zh_TW", "en": "en_US", "ja": "ja_JP"}
-PREFIX = {"zh": "/", "en": "/en/", "ja": "/ja/"}
+LANGS = ["zh", "sc", "en", "ja"]  # sc = Simplified Chinese, generated from zh at build time
+HTML_LANG = {"zh": "zh-Hant", "sc": "zh-Hans", "en": "en", "ja": "ja"}
+HREFLANG = {"zh": "zh-Hant", "sc": "zh-Hans", "en": "en", "ja": "ja"}
+OG_LOCALE = {"zh": "zh_TW", "sc": "zh_CN", "en": "en_US", "ja": "ja_JP"}
+PREFIX = {"zh": "/", "sc": "/zh-hans/", "en": "/en/", "ja": "/ja/"}
 CATS = ["impact", "gvc", "twvc", "fo"]
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -88,6 +88,32 @@ UI = {
 }
 
 
+UI["sc"] = UI["zh"]  # Simplified pages are rendered from the Traditional text, then converted
+
+
+def base(L):
+    """Content language used for lookups: Simplified Chinese reuses the Traditional fields."""
+    return "zh" if L == "sc" else L
+
+
+_CC = None
+SC_FIXES = {"巨亨": "钜亨", "「": "“", "」": "”", "『": "‘", "』": "’"}
+
+
+def to_sc(text):
+    """Convert Traditional Chinese to Simplified (character-level OpenCC t2s plus a few fixes)."""
+    global _CC
+    if _CC is None:
+        import sys
+        sys.path.insert(0, os.path.join(ROOT, "vendor"))
+        from opencc import OpenCC
+        _CC = OpenCC("t2s")
+    out = _CC.convert(text)
+    for a, b in SC_FIXES.items():
+        out = out.replace(a, b)
+    return out
+
+
 # ---------------------------------------------------------------- helpers
 def esc(s):
     return html.escape("" if s is None else str(s), quote=True)
@@ -97,6 +123,7 @@ def T(o, k, L):
     """Field k in language L, falling back to the Chinese field."""
     if not o:
         return ""
+    L = base(L)
     if L == "zh":
         return o.get(k, "")
     lk = k + "_" + L
@@ -154,7 +181,7 @@ def week_label(w, L):
     if not re.match(r"^\d{4}-\d{2}-\d{2}$", wk):
         return w.get("label") or wk
     y, m, d = wk.split("-")
-    if L == "zh":
+    if base(L) == "zh":
         return w.get("label") or "%s 年 %d 月 %d 日當週" % (y, int(m), int(d))
     if L == "en":
         return "Week of %s %d, %s" % (MON[int(m) - 1], int(d), y)
@@ -252,12 +279,12 @@ def head(L, title, desc, path, alternates, og_type="website", og_image=None, ext
 <link rel="alternate" type="application/rss+xml" title="{esc(name(L))}" href="{PREFIX[L]}feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@400;500;700;900&family=Noto+Sans+TC:wght@400;500;700;900{"&family=Noto+Sans+SC:wght@400;500;700;900" if L == "sc" else ""}&display=swap">
 <link rel="stylesheet" href="/assets/site.css?v={VERSION}">
 {lds}
 </head>
 <body>
-<a class="skip" href="#main">{ {"zh": "跳到主要內容", "en": "Skip to content", "ja": "本文へスキップ"}[L] }</a>
+<a class="skip" href="#main">{ {"zh": "跳到主要內容", "en": "Skip to content", "ja": "本文へスキップ"}[base(L)] }</a>
 """
 
 
@@ -276,7 +303,7 @@ def nav(L, alternates, on_home=False):
         '<a href="%s" hreflang="%s" lang="%s"%s>%s</a>' % (
             alternates.get(l, PREFIX[l]), HREFLANG[l], HTML_LANG[l],
             ' aria-current="true"' if l == L else "", lab)
-        for l, lab in (("zh", "中"), ("en", "EN"), ("ja", "日")))
+        for l, lab in (("zh", "繁"), ("sc", "简"), ("en", "EN"), ("ja", "日")))
     return (f'<header class="nav"><div class="wrap"><a class="brand" href="{home}">{brand}</a>'
             f'<nav aria-label="{U["menu"]}">{nav_html}</nav>'
             f'<div class="lang-switch" role="group" aria-label="Language">{sw}</div></div></header>')
@@ -285,7 +312,7 @@ def nav(L, alternates, on_home=False):
 def footer(L, alternates):
     U = UI[L]
     langs = "".join('<a href="%s" hreflang="%s" lang="%s">%s</a>' % (alternates.get(l, PREFIX[l]), HREFLANG[l], HTML_LANG[l], lab)
-                    for l, lab in (("zh", "繁體中文"), ("en", "English"), ("ja", "日本語")))
+                    for l, lab in (("zh", "繁體中文"), ("sc", "简体中文"), ("en", "English"), ("ja", "日本語")))
     return (f'<footer><span>© {date.today().year} {esc(P["name_zh"])} {esc(P["name_en"])}</span>'
             f'<span>{esc(P.get("motto", ""))}</span><span class="langs-foot">{langs}</span></footer>')
 
@@ -323,7 +350,7 @@ def article_cards(L, items):
         href = art_path(a, L)
         meta = '<span class="mono">%s</span>' % esc(a.get("date")) + "".join('<span class="chip">%s</span>' % esc(t) for t in tags(T(a, "tags", L)))
         if a.get("published_in"):
-            meta += '<span class="chip pub">%s</span>' % esc({"zh": "鉅亨網刊登", "en": "As seen on Anue", "ja": "鉅亨網に掲載"}[L] if "cnyes" in a["published_in"][0]["url"] else T(a["published_in"][0], "name", L))
+            meta += '<span class="chip pub">%s</span>' % esc({"zh": "鉅亨網刊登", "en": "As seen on Anue", "ja": "鉅亨網に掲載"}[base(L)] if "cnyes" in a["published_in"][0]["url"] else T(a["published_in"][0], "name", L))
         thumb = ('<div class="thumb"><img src="%s" alt="" loading="lazy"></div>' % esc(a["image"])) if a.get("image") else \
             '<div class="thumb empty" aria-hidden="true">%s</div>' % esc((a.get("title") or "")[:1])
         out.append(
@@ -341,8 +368,8 @@ def news_items(L, items, bi=True):
         return '<p class="note">%s</p>' % U["noNews"]
     out = []
     for n in items:
-        t1 = n.get("title_" + L) or n.get("title_zh")
-        s1 = n.get("sum_" + L) or n.get("sum_zh")
+        t1 = n.get("title_" + base(L)) or n.get("title_zh")
+        s1 = n.get("sum_" + base(L)) or n.get("sum_zh")
         en = ""
         if L != "en" and bi and n.get("title_en"):
             en = '<div class="en" lang="en"><h4>%s</h4><p>%s</p></div>' % (esc(n["title_en"]), esc(n.get("sum_en")))
@@ -378,7 +405,7 @@ def build_home(L):
               % (U["kick"], U["letter"], paras(T(P, "letter", L)), esc(T(P, "signature", L))))
     # about
     intro_en = ""
-    if L == "zh" and P.get("intro_en"):
+    if base(L) == "zh" and P.get("intro_en"):
         intro_en = '<div class="intro-en" lang="en"><span class="mono">In English</span>%s</div>' % esc(P["intro_en"]).replace("\n\n", "<br><br>")
     roles = "".join('<div class="role"><b>%s</b><span class="r">%s</span><span class="n">%s</span></div>' % (esc(T(r, "org", L)), esc(T(r, "role", L)), esc(T(r, "note", L))) for r in P.get("roles", []))
     h += ('<section class="block" id="about">' + sec_head(L, U["about"], "About")
@@ -403,7 +430,7 @@ def build_home(L):
                 ti = '<a href="%s" target="_blank" rel="noopener" style="color:inherit">%s ↗</a>' % (esc(v["url"]), ti)
             ev += '<div class="ev"><div class="d">%s</div><div><h3>%s</h3><div class="o">%s</div>%s</div></div>' % (
                 esc(T(v, "date", L)), ti, esc(T(v, "org", L)), "<p>%s</p>" % esc(T(v, "desc", L)) if v.get("desc") else "")
-        h += '<section class="block" id="events">' + sec_head(L, {"zh": "演講與活動", "en": "Speaking & Engagements", "ja": "講演・活動"}[L], "Speaking &amp; Engagements") + '<div class="events">' + ev + "</div></section>"
+        h += '<section class="block" id="events">' + sec_head(L, {"zh": "演講與活動", "en": "Speaking & Engagements", "ja": "講演・活動"}[base(L)], "Speaking &amp; Engagements") + '<div class="events">' + ev + "</div></section>"
     # weekly (latest)
     if WEEKS:
         wk = WEEKS[0]
@@ -467,7 +494,7 @@ def build_article(L, a):
     path = art_path(a, L)
     alts = {l: art_path(a, l) for l in LANGS}
     title = T(a, "title", L)
-    body_text = a.get("body") if L == "zh" else a.get("body_" + L)
+    body_text = a.get("body") if base(L) == "zh" else a.get("body_" + L)
     by = T(a, "byline", L) or name(L)
     head_html = ('<article class="reader"><nav class="crumbs" aria-label="breadcrumb"><a href="%s">%s</a><a href="%sinsights/">%s</a></nav>'
                  '<span class="mono" style="display:block;margin-top:18px">%s · %s</span><h1>%s</h1>%s<div class="by">%s%s</div>%s') % (
@@ -476,8 +503,8 @@ def build_article(L, a):
         share_bar(abs_url(path), title, L))
     pubs = a.get("published_in") or []
     if pubs:
-        lab = {"zh": "本文亦刊登於", "en": "Also published in", "ja": "本稿は次の媒体にも掲載されました："}[L]
-        suffix = {"zh": "", "en": " (Chinese)", "ja": "（中国語）"}[L]
+        lab = {"zh": "本文亦刊登於", "en": "Also published in", "ja": "本稿は次の媒体にも掲載されました："}[base(L)]
+        suffix = {"zh": "", "en": " (Chinese)", "ja": "（中国語）"}[base(L)]
         head_html += '<p class="pubnote">%s %s</p>' % (lab, "、".join(
             '<a href="%s" target="_blank" rel="noopener">%s</a>%s' % (esc(x["url"]), esc(T(x, "name", L)), suffix) for x in pubs))
     if body_text:
@@ -599,6 +626,8 @@ def llms_txt():
 
 
 def write(rel, content):
+    if rel.startswith(PREFIX["sc"]):
+        content = to_sc(content)
     fp = os.path.join(OUT, rel.lstrip("/"))
     if fp.endswith("/"):
         fp += "index.html"

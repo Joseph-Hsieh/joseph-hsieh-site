@@ -724,6 +724,37 @@
    "points_ja": "毎月の起業講座とテーマ別ワークショップ\n各地での会員交流会と経験共有\n福岡、シンガポールなどへの海外交流視察\nAI、越境ECなどの実務講座とリソースのマッチング",
    "url": "https://www.ciea.tw/",
    "stats": []
+  },
+  {
+   "name": "盛德科技（Bincentive）",
+   "name_en": "Bincentive",
+   "name_ja": "盛德科技（Bincentive）",
+   "role": "董事",
+   "role_en": "Board Director",
+   "role_ja": "取締役",
+   "desc": "專注為高淨值客戶及家族提供數位資產服務，涵蓋數位資產配置、管理平台與家族辦公室的數位化服務。",
+   "desc_en": "Digital asset services for high-net-worth clients and families, spanning digital asset allocation, a management platform and digital services for family offices.",
+   "desc_ja": "富裕層のお客様とご家族に向けたデジタル資産サービスに特化し、デジタル資産の配分、管理プラットフォーム、ファミリーオフィスのデジタル化を支援しています。",
+   "points": "",
+   "points_en": "",
+   "points_ja": "",
+   "url": "https://bincentive.com/",
+   "stats": []
+  },
+  {
+   "name": "高曼證券投顧",
+   "name_en": "Gamma Paradigm Securities Investment Advisory",
+   "name_ja": "高曼（Gamma Paradigm）証券投資顧問",
+   "role": "董事",
+   "role_en": "Board Director",
+   "role_ja": "取締役",
+   "desc": "台灣證券投資顧問事業，提供私募諮詢、境外投資架構規劃與家族辦公室服務。",
+   "desc_en": "A Taiwan securities investment advisory firm providing private equity advisory, offshore investment structuring and family office services.",
+   "desc_ja": "台湾の証券投資顧問会社として、プライベート・エクイティに関する助言、海外投資スキームの設計、ファミリーオフィス・サービスを提供しています。",
+   "points": "",
+   "points_en": "",
+   "points_ja": "",
+   "stats": []
   }
  ]
 }

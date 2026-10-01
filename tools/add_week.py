@@ -16,7 +16,7 @@ week.json format:
 }
 item = {"title_zh","title_en","title_ja","sum_zh","sum_en","sum_ja","source","date","url"}
 
-Each week carries 7 to 9 items in total across the four categories.
+Each of the four categories carries 7 to 9 items per week (28 to 36 in total).
 
 The script validates every field, drops links that already appeared in an
 earlier week, replaces an existing entry for the same week and keeps weeks
@@ -67,10 +67,12 @@ def main(path):
         total += len(clean)
     if total == 0:
         fail("no items to publish")
-    if total > MAX_ITEMS:
-        fail("%d items this week; keep it to %d-%d in total" % (total, MIN_ITEMS, MAX_ITEMS))
-    if total < MIN_ITEMS:
-        print("WARNING: only %d items this week (target %d-%d)" % (total, MIN_ITEMS, MAX_ITEMS))
+    for c in CATS:
+        k = len(items.get(c, []))
+        if k > MAX_ITEMS:
+            fail("%s has %d items; keep each category to %d-%d" % (c, k, MIN_ITEMS, MAX_ITEMS))
+        if k < MIN_ITEMS:
+            print("WARNING: %s has only %d items (target %d-%d per category)" % (c, k, MIN_ITEMS, MAX_ITEMS))
     week["items"] = {c: items.get(c, []) for c in CATS}
     weeks = [w for w in weeks if w.get("week") != week["week"]] + [week]
     weeks.sort(key=lambda w: w["week"], reverse=True)

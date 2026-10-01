@@ -302,3 +302,23 @@ footer a{color:var(--muted)}
 .reader .pubnote{font-size:14px;color:var(--muted);margin:-8px 0 24px}
 .reader .pubnote a{font-weight:700;color:var(--ink)}
 .chip.pub{color:var(--accent)}
+
+/* weekly brief search */
+.nsearch{margin-top:28px;max-width:760px}
+.nsearch label{display:block;font-size:13px;font-weight:700;letter-spacing:.06em;margin-bottom:8px;color:var(--ink)}
+.nsearch-row{display:flex;gap:8px;flex-wrap:wrap}
+.nsearch input,.nsearch select{font:inherit;font-size:15px;padding:9px 12px;border:1px solid var(--ink);background:var(--bg);color:var(--ink);border-radius:0}
+.nsearch input{flex:1 1 260px;min-width:0}
+.nsearch select{flex:0 0 auto}
+.nsearch .btn{padding:9px 18px}
+.nsearch-hint{font-size:13px!important;color:var(--muted)!important;margin:8px 0 0!important}
+.nsearch.compact{margin-top:24px}
+.nresults{margin-top:36px}
+.nresults-head{font-size:15px;font-weight:700;margin:0}
+.nresults mark{background:var(--accent-soft);color:inherit;padding:0 1px}
+.item .when .wk{color:var(--ink);font-size:12px;text-decoration-color:var(--accent)}
+.item .when .cat{color:var(--accent);font-weight:700}
+.more-weeks{flex-basis:100%;margin-top:4px}
+.more-weeks summary{cursor:pointer;font-size:14px;color:var(--muted)}
+.more-weeks .weeklist{margin-top:12px}
+[hidden]{display:none!important}

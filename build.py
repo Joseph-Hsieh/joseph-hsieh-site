@@ -35,6 +35,9 @@ UI = {
                by="文／", share="分享", copyLink="複製連結", linkCopied="已複製連結", copy="複製信箱",
                copied="已複製信箱", withEn="中英對照", allArticles="看全部觀點文章", allNews="看完整每週觀察",
                related="延伸閱讀", archive="過往週次", readMore="閱讀全文",
+               s_label="關鍵字查詢", s_ph="輸入關鍵字，例如：家族辦公室、AI、國發基金", s_btn="搜尋", s_clear="清除",
+               s_all="全部分類", s_count="共 {n} 則符合「{q}」，涵蓋 {w} 個週次", s_none="沒有找到符合「{q}」的新聞，請換個關鍵字試試。",
+               s_more="更多過往週次", s_hint="可同時輸入多個關鍵字，以空白分隔。",
                title="謝文淵 Joseph Hsieh｜影響力投資・天使投資・家族辦公室・企業轉型",
                desc_home=None,
                ins_title="觀點｜謝文淵 Joseph Hsieh",
@@ -54,6 +57,9 @@ UI = {
                by="By ", share="Share", copyLink="Copy link", linkCopied="Link copied", copy="Copy email",
                copied="Email copied", withEn="", allArticles="All insights", allNews="Full weekly brief",
                related="Related reading", archive="Past weeks", readMore="Read more",
+               s_label="Keyword search", s_ph="Enter keywords, e.g. family office, AI, Sequoia", s_btn="Search", s_clear="Clear",
+               s_all="All categories", s_count="{n} results for “{q}” (from {w} week(s))", s_none="No news matches “{q}”. Try another keyword.",
+               s_more="More past weeks", s_hint="Separate multiple keywords with spaces.",
                title="Joseph Hsieh | Impact Investing, Angel Investing, Family Offices & Corporate Transformation",
                desc_home=None,
                ins_title="Insights | Joseph Hsieh",
@@ -74,6 +80,9 @@ UI = {
                by="文：", share="共有", copyLink="リンクをコピー", linkCopied="リンクをコピーしました", copy="メールをコピー",
                copied="コピーしました", withEn="英語を併記", allArticles="論考一覧へ", allNews="週刊ウォッチを見る",
                related="関連記事", archive="過去の週", readMore="続きを読む",
+               s_label="キーワード検索", s_ph="キーワードを入力（例：ファミリーオフィス、AI、Sequoia）", s_btn="検索", s_clear="クリア",
+               s_all="すべてのカテゴリ", s_count="「{q}」の検索結果：{n}件（{w}週分）", s_none="「{q}」に一致するニュースはありません。別のキーワードでお試しください。",
+               s_more="過去の週をもっと見る", s_hint="複数のキーワードはスペースで区切って入力できます。",
                title="謝文淵 Joseph Hsieh｜インパクト投資・エンジェル投資・ファミリーオフィス・企業変革",
                desc_home=None,
                ins_title="論考｜謝文淵 Joseph Hsieh",
@@ -441,7 +450,8 @@ def build_home(L):
         h += ('<section class="block" id="weekly">' + sec_head(L, U["weekly"], "Weekly Brief", '<span class="aside mono">%s</span>' % esc(week_label(wk, L)))
               + '<div class="weekly-ctl" style="display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;align-items:center;margin-bottom:8px"><div class="tabs" role="tablist">'
               + tabs + "</div>" + bi_toggle(L) + "</div>" + panels
-              + '<p class="note">%s</p><p class="more"><a href="%snews/">%s →</a></p></section>' % (U["newsNote"], PREFIX[L], U["allNews"]))
+              + '<p class="note">%s</p>' % U["newsNote"] + search_form(L, compact=True)
+              + '<p class="more"><a href="%snews/">%s →</a></p></section>' % (PREFIX[L], U["allNews"]))
     # career
     tl = "".join('<div class="tl"><div class="yr">%s</div><div><h3>%s</h3>%s<ul>%s</ul></div></div>' % (
         esc(c.get("years")), esc(T(c, "org", L)), '<div class="rl">%s</div>' % esc(T(c, "role", L)) if c.get("role") else "",
@@ -548,20 +558,57 @@ def build_article(L, a):
     return html_out
 
 
+def search_form(L, compact=False):
+    U = UI[L]
+    opts = '<option value="">%s</option>' % U["s_all"] + "".join('<option value="%s">%s</option>' % (c, U["cats"][c]) for c in CATS)
+    i18n = esc(json.dumps({k: U[k] for k in ("s_count", "s_none", "source")}, ensure_ascii=False))
+    idx = PREFIX[L] + "news/search.json?v=" + VERSION
+    return ('<form class="nsearch%s" role="search" action="%snews/" method="get" data-index="%s" data-i18n="%s">'
+            '<label for="nq-%s">%s</label><div class="nsearch-row">'
+            '<input id="nq-%s" name="q" type="search" placeholder="%s" autocomplete="off" enterkeyhint="search">'
+            '%s<button class="btn primary" type="submit">%s</button>'
+            '<button class="btn nsearch-clear" type="button" hidden>%s</button></div>%s</form>') % (
+        " compact" if compact else "", PREFIX[L], esc(idx), i18n, "c" if compact else "p", U["s_label"],
+        "c" if compact else "p", esc(U["s_ph"]),
+        "" if compact else '<select name="cat" aria-label="%s">%s</select>' % (U["s_all"], opts),
+        U["s_btn"], U["s_clear"], "" if compact else '<p class="nsearch-hint">%s</p>' % U["s_hint"])
+
+
+def search_index(L):
+    U = UI[L]
+    rows = []
+    for w in WEEKS:
+        for c in CATS:
+            for n in w.get("items", {}).get(c, []):
+                r = {"w": w["week"], "wl": week_label(w, L), "c": c, "cl": U["cats"][c],
+                     "t": n.get("title_" + base(L)) or n.get("title_zh", ""), "s": n.get("sum_" + base(L)) or n.get("sum_zh", ""),
+                     "src": n.get("source", ""), "d": n.get("date", ""), "u": n.get("url", ""),
+                     "p": PREFIX[L] + ("news/" if w is WEEKS[0] else "news/%s/" % w["week"])}
+                if L != "en":
+                    r["te"], r["se"] = n.get("title_en", ""), n.get("sum_en", "")
+                rows.append(r)
+    return json.dumps(rows, ensure_ascii=False, separators=(",", ":"))
+
+
 def build_news(L, idx):
     U = UI[L]
     wk = WEEKS[idx]
     latest = idx == 0
     path = PREFIX[L] + ("news/" if latest else "news/%s/" % wk["week"])
     alts = {l: PREFIX[l] + ("news/" if latest else "news/%s/" % wk["week"]) for l in LANGS}
-    wl = "".join('<a href="%s"%s>%s</a>' % (PREFIX[L] + ("news/" if i == 0 else "news/%s/" % w["week"]),
-                                             ' aria-current="page"' if i == idx else "", esc(week_label(w, L))) for i, w in enumerate(WEEKS[:12]))
+    links = ['<a href="%s"%s>%s</a>' % (PREFIX[L] + ("news/" if i == 0 else "news/%s/" % w["week"]),
+                                         ' aria-current="page"' if i == idx else "", esc(week_label(w, L))) for i, w in enumerate(WEEKS)]
+    wl = "".join(links[:12])
+    if len(links) > 12:
+        wl += '<details class="more-weeks"%s><summary>%s（%d）</summary><div class="weeklist">%s</div></details>' % (
+            " open" if idx >= 12 else "", U["s_more"], len(links) - 12, "".join(links[12:]))
     cats = "".join('<section class="news-cat" id="%s">%s<div class="news">%s</div></section>' % (
         c, sec_head(L, U["cats"][c], "", tag="h2").replace('<span class="en"></span>', ""), news_items(L, wk.get("items", {}).get(c, []))) for c in CATS)
     body = ('<div class="page-head"><nav class="crumbs" aria-label="breadcrumb"><a href="%s">%s</a><span>%s</span></nav>'
-            '<h1>%s</h1><p>%s</p><p class="mono" style="margin-top:18px">%s</p>%s</div>'
-            '<div style="margin-top:28px">%s</div>%s<p class="note">%s</p>') % (
-        PREFIX[L], U["home"], U["weekly"], U["weekly"], U["news_lead"], esc(week_label(wk, L)),
+            '<h1>%s</h1><p>%s</p>%s</div><div id="nresults" class="nresults" hidden></div>'
+            '<div id="nweek"><p class="mono" style="margin-top:28px">%s</p>%s'
+            '<div style="margin-top:28px">%s</div>%s</div><p class="note">%s</p>') % (
+        PREFIX[L], U["home"], U["weekly"], U["weekly"], U["news_lead"], search_form(L), esc(week_label(wk, L)),
         ('<nav class="weeklist" aria-label="%s">%s</nav>' % (U["archive"], wl)) if len(WEEKS) > 1 else "", bi_toggle(L), cats, U["newsNote"])
     title = U["news_title"] if latest else "%s｜%s" % (week_label(wk, L), U["news_title"])
     ld = [{"@context": "https://schema.org", "@type": "CollectionPage", "name": title, "url": abs_url(path), "inLanguage": HTML_LANG[L],
@@ -664,6 +711,7 @@ def main():
         for i in range(len(WEEKS)):
             write(PREFIX[L] + ("news/" if i == 0 else "news/%s/" % WEEKS[i]["week"]), build_news(L, i))
         write(PREFIX[L] + "feed.xml", rss(L))
+        write(PREFIX[L] + "news/search.json", search_index(L))
     latest_week = WEEKS[0]["week"] if WEEKS else newest_article
     entries.append((dict(PREFIX), max(latest_week, newest_article)))
     entries.append(({l: PREFIX[l] + "insights/" for l in LANGS}, newest_article))

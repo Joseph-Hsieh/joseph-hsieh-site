@@ -16,9 +16,12 @@ week.json format:
 }
 item = {"title_zh","title_en","title_ja","sum_zh","sum_en","sum_ja","source","date","url"}
 
+Each week carries 7 to 9 items in total across the four categories.
+
 The script validates every field, drops links that already appeared in an
-earlier week, replaces an existing entry for the same week, keeps weeks newest
-first, and trims the archive to the most recent 52 weeks.
+earlier week, replaces an existing entry for the same week and keeps weeks
+newest first. Past weeks are never deleted: the archive keeps growing and
+stays searchable on the site.
 """
 import json
 import os
@@ -29,7 +32,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "site.json")
 CATS = ["impact", "gvc", "twvc", "fo"]
 FIELDS = ["title_zh", "title_en", "title_ja", "sum_zh", "sum_en", "sum_ja", "source", "date", "url"]
-KEEP = 52
+MIN_ITEMS, MAX_ITEMS = 7, 9
 
 
 def fail(msg):
@@ -64,10 +67,14 @@ def main(path):
         total += len(clean)
     if total == 0:
         fail("no items to publish")
+    if total > MAX_ITEMS:
+        fail("%d items this week; keep it to %d-%d in total" % (total, MIN_ITEMS, MAX_ITEMS))
+    if total < MIN_ITEMS:
+        print("WARNING: only %d items this week (target %d-%d)" % (total, MIN_ITEMS, MAX_ITEMS))
     week["items"] = {c: items.get(c, []) for c in CATS}
     weeks = [w for w in weeks if w.get("week") != week["week"]] + [week]
     weeks.sort(key=lambda w: w["week"], reverse=True)
-    site["news"]["weeks"] = weeks[:KEEP]
+    site["news"]["weeks"] = weeks
     with open(DATA, "w", encoding="utf-8") as f:
         json.dump(site, f, ensure_ascii=False, indent=1)
         f.write("\n")

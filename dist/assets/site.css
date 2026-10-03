@@ -322,3 +322,14 @@ footer a{color:var(--muted)}
 .more-weeks summary{cursor:pointer;font-size:14px;color:var(--muted)}
 .more-weeks .weeklist{margin-top:12px}
 [hidden]{display:none!important}
+
+/* contact channels */
+.channels{margin:14px 0 0;padding:0;border-top:1px solid color-mix(in srgb,var(--bg) 25%,var(--ink))}
+.channels > div{display:grid;grid-template-columns:132px 1fr;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid color-mix(in srgb,var(--bg) 25%,var(--ink))}
+.channels dt{font-size:12px;font-weight:700;letter-spacing:.06em;color:color-mix(in srgb,var(--bg) 65%,var(--ink))}
+.channels dd{margin:0;display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:space-between}
+.channels .v{font-family:var(--latin);font-size:16px;font-weight:600;color:var(--bg);user-select:all}
+.channels .acts{display:flex;gap:6px}
+.channels .acts a,.channels .acts button{font:inherit;font-family:var(--latin);font-size:12px;font-weight:700;padding:5px 10px;border:1px solid color-mix(in srgb,var(--bg) 45%,var(--ink));background:transparent;color:var(--bg);text-decoration:none;cursor:pointer}
+.channels .acts a:hover,.channels .acts button:hover{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+@media (max-width:560px){.channels > div{grid-template-columns:1fr;gap:4px}}

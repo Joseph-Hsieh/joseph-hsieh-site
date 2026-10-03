@@ -394,6 +394,28 @@ def bi_toggle(L):
     return '<div class="langs"><button class="tab" data-bi aria-pressed="true">%s</button></div>' % UI[L]["withEn"]
 
 
+def channels(L):
+    U = UI[L]
+    lab = {"zh": ("手機／WhatsApp", "LINE ID", "微信 WeChat ID", "複製", "已複製", "傳訊息", "加好友", "撥打"),
+           "en": ("Mobile / WhatsApp", "LINE ID", "WeChat ID", "Copy", "Copied", "Message", "Add", "Call"),
+           "ja": ("携帯／WhatsApp", "LINE ID", "WeChat ID", "コピー", "コピーしました", "メッセージ", "友だち追加", "電話")}[base(L)]
+    rows = []
+    ph = P.get("phone")
+    if ph:
+        digits = re.sub(r"\D", "", ph)
+        shown = re.sub(r"^\+886(\d{3})(\d{3})(\d{3})$", r"+886 \1 \2 \3", ph)
+        rows.append((lab[0], shown, ph, '<a href="https://wa.me/%s" target="_blank" rel="noopener">WhatsApp</a><a href="tel:%s">%s</a>' % (digits, esc(ph), lab[7])))
+    if P.get("line"):
+        rows.append((lab[1], P["line"], P["line"], '<a href="https://line.me/ti/p/~%s" target="_blank" rel="noopener">%s</a>' % (esc(P["line"]), lab[6])))
+    if P.get("wechat"):
+        rows.append((lab[2], P["wechat"], P["wechat"], ""))
+    if not rows:
+        return ""
+    return '<dl class="channels">' + "".join(
+        '<div><dt>%s</dt><dd><span class="v">%s</span><span class="acts">%s<button type="button" data-copymail="%s" data-done="%s">%s</button></span></dd></div>' % (
+            lab_, esc(v), act, esc(cp), esc(lab[4]), lab[3]) for lab_, v, cp, act in rows) + "</dl>"
+
+
 # ---------------------------------------------------------------- pages
 def build_home(L):
     U = UI[L]
@@ -475,8 +497,8 @@ def build_home(L):
     socials = "".join('<a href="%s" target="_blank" rel="noopener me">%s ↗</a>' % (esc(P[k]), lab) for k, lab in (("linkedin", "LinkedIn"), ("facebook", "Facebook"), ("instagram", "Instagram")) if P.get(k))
     h += ('<section class="block" id="contact"><div class="contact-panel"><div><h2>%s</h2><p class="big">%s</p></div><div>'
           '<div class="mailbox"><code id="mail"><a href="mailto:%s" style="color:inherit;text-decoration:none">%s</a></code><button class="btn" data-copymail="%s" data-done="%s">%s</button></div>'
-          '<div class="social">%s</div></div></div></section>') % (
-        U["contact_h"], esc(T(P, "contact_note", L)), esc(P["email"]), esc(P["email"]), esc(P["email"]), esc(U["copied"]), U["copy"], socials)
+          '%s<div class="social">%s</div></div></div></section>') % (
+        U["contact_h"], esc(T(P, "contact_note", L)), esc(P["email"]), esc(P["email"]), esc(P["email"]), esc(U["copied"]), U["copy"], channels(L), socials)
 
     desc = plain(T(P, "lead", L), 160)
     website = {"@context": "https://schema.org", "@type": "WebSite", "@id": SITE + "/#website", "url": SITE + "/",

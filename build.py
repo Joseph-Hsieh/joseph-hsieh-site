@@ -218,7 +218,7 @@ def abs_url(path):
     return SITE + path
 
 
-ARTICLES = sorted(DATA.get("articles", []), key=lambda a: iso_date(a.get("date")) or "", reverse=True)
+ARTICLES = list(DATA.get("articles", []))  # display order follows data/site.json (curated by the owner)
 WEEKS = sorted(DATA.get("news", {}).get("weeks", []), key=lambda w: w.get("week", ""), reverse=True)
 PERSON_ID = SITE + "/#person"
 
@@ -368,7 +368,7 @@ def article_cards(L, items):
             + (f'<div class="sub">{esc(T(a, "subtitle", L))}</div>' if a.get("subtitle") else "")
             + f'<p class="sum">{esc(T(a, "summary", L))}</p></div></a>'
             + share_bar(abs_url(href), T(a, "title", L), L) + "</div>")
-    return '<div class="articles">' + "".join(out) + "</div>"
+    return '<div class="articles%s">' % (" two" if len(out) in (2, 4) else "") + "".join(out) + "</div>"
 
 
 def news_items(L, items, bi=True):
@@ -451,7 +451,7 @@ def build_home(L):
     h += '<section class="block" id="services">' + sec_head(L, U["services"], "Services") + '<div class="services">' + svc + "</div></section>"
     # articles
     h += ('<section class="block" id="articles">' + sec_head(L, U["articles"], "Perspectives", '<span class="aside mono">%s</span>' % U["topics"])
-          + article_cards(L, ARTICLES[:3]) + '<p class="more"><a href="%sinsights/">%s →</a></p></section>' % (PREFIX[L], U["allArticles"]))
+          + article_cards(L, ARTICLES[:6]) + '<p class="more"><a href="%sinsights/">%s →</a></p></section>' % (PREFIX[L], U["allArticles"]))
     # events
     if not hidden("events"):
         ev = ""

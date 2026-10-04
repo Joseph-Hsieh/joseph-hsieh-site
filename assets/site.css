@@ -333,3 +333,6 @@ footer a{color:var(--muted)}
 .channels .acts a,.channels .acts button{font:inherit;font-family:var(--latin);font-size:12px;font-weight:700;padding:5px 10px;border:1px solid color-mix(in srgb,var(--bg) 45%,var(--ink));background:transparent;color:var(--bg);text-decoration:none;cursor:pointer}
 .channels .acts a:hover,.channels .acts button:hover{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
 @media (max-width:560px){.channels > div{grid-template-columns:1fr;gap:4px}}
+
+.articles.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (max-width:900px){.articles.two{grid-template-columns:1fr}}

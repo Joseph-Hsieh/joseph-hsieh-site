@@ -382,10 +382,26 @@ def news_items(L, items, bi=True):
         en = ""
         if L != "en" and bi and n.get("title_en"):
             en = '<div class="en" lang="en"><h4>%s</h4><p>%s</p></div>' % (esc(n["title_en"]), esc(n.get("sum_en")))
+        vb = vocab_box(L, n.get("vocab"))
         link = ('<a class="out" href="%s" target="_blank" rel="noopener">%s ↗</a>' % (esc(n["url"]), U["source"])) if n.get("url") else ""
         out.append(f'<article class="item"><div class="when"><b>{esc(n.get("source"))}</b><span>{esc(n.get("date"))}</span></div>'
-                   f'<div><h3>{esc(t1)}</h3><p>{esc(s1)}</p>{en}{link}</div></article>')
+                   f'<div><h3>{esc(t1)}</h3><p>{esc(s1)}</p>{vb}{en}{link}</div></article>')
     return "".join(out)
+
+
+VOCAB_LABEL = {"zh": "學習單字", "en": "Vocabulary", "ja": "学習語彙"}
+
+
+def vocab_box(L, vocab):
+    """Three English terms from the source article, glossed in the page's language."""
+    if not vocab:
+        return ""
+    k = base(L)
+    rows = "".join('<li><b lang="en">%s</b><span>%s</span></li>' % (esc(v.get("term")), esc(v.get(k) or v.get("en")))
+                   for v in vocab if v.get("term"))
+    if not rows:
+        return ""
+    return '<div class="vocab"><span class="vocab-h">%s</span><ul>%s</ul></div>' % (VOCAB_LABEL.get(k, "Vocabulary"), rows)
 
 
 def bi_toggle(L):

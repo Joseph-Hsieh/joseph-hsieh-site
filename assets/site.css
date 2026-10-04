@@ -336,3 +336,11 @@ footer a{color:var(--muted)}
 
 .articles.two{grid-template-columns:repeat(2,minmax(0,1fr))}
 @media (max-width:900px){.articles.two{grid-template-columns:1fr}}
+
+/* weekly brief: vocabulary box */
+.item .vocab{margin-top:12px;padding:10px 14px;background:var(--panel);border-left:3px solid var(--line)}
+.item .vocab-h{display:block;font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--muted);margin-bottom:4px}
+.item .vocab ul{list-style:none;margin:0;padding:0}
+.item .vocab li{font-size:14px;line-height:1.55;color:var(--text);padding:3px 0}
+.item .vocab li b{font-family:var(--latin);font-weight:700;color:var(--ink);margin-right:8px}
+@media (max-width:560px){.item .vocab{padding:8px 12px}.item .vocab li{font-size:13.5px}}

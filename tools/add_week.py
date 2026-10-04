@@ -15,6 +15,7 @@ week.json format:
   }
 }
 item = {"title_zh","title_en","title_ja","sum_zh","sum_en","sum_ja","source","date","url"}
+optional: "vocab": [{"term","zh","ja","en"} x 3] for items whose source article is in English
 
 Each of the four categories carries 7 to 9 items per week (28 to 36 in total).
 
@@ -32,11 +33,32 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "site.json")
 CATS = ["impact", "gvc", "twvc", "fo"]
 FIELDS = ["title_zh", "title_en", "title_ja", "sum_zh", "sum_en", "sum_ja", "source", "date", "url"]
+VOCAB_FIELDS = ["term", "zh", "ja", "en"]
+VOCAB_COUNT = 3
 MIN_ITEMS, MAX_ITEMS = 7, 9
 
 
 def fail(msg):
     sys.exit("ERROR: " + msg)
+
+
+def check_vocab(c, n):
+    """Validate the optional vocab list and return a cleaned copy (or None)."""
+    v = n.get("vocab")
+    if v is None:
+        return None
+    label = "%s item '%s'" % (c, n.get("title_zh", "?"))
+    if not isinstance(v, list) or len(v) != VOCAB_COUNT:
+        fail("%s: vocab must be a list of exactly %d entries" % (label, VOCAB_COUNT))
+    out = []
+    for e in v:
+        if not isinstance(e, dict):
+            fail("%s: vocab entries must be objects" % label)
+        missing = [f for f in VOCAB_FIELDS if not str(e.get(f, "")).strip()]
+        if missing:
+            fail("%s: vocab entry '%s' missing %s" % (label, e.get("term", "?"), ", ".join(missing)))
+        out.append({f: str(e[f]).strip() for f in VOCAB_FIELDS})
+    return out
 
 
 def main(path):
@@ -62,7 +84,11 @@ def main(path):
                 print("skip (already published): %s" % n["url"])
                 continue
             seen.add(n["url"])
-            clean.append({f: n[f].strip() for f in FIELDS})
+            item = {f: n[f].strip() for f in FIELDS}
+            vocab = check_vocab(c, n)
+            if vocab:
+                item["vocab"] = vocab
+            clean.append(item)
         items[c] = clean
         total += len(clean)
     if total == 0:

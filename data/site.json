@@ -481,6 +481,823 @@
  "news": {
   "weeks": [
    {
+    "week": "2026-10-12",
+    "label": "2026 年 10 月第 2 週",
+    "items": {
+     "impact": [
+      {
+       "title_zh": "家族辦公室Ceniarth公開十年「影響力優先」成績單：四年淨IRR僅3.2%",
+       "title_en": "Family office Ceniarth reveals break-even results from its impact-first portfolio",
+       "title_ja": "ファミリーオフィスCeniarth、インパクト・ファースト投資の成績を公開　収支はほぼトントン",
+       "sum_zh": "8億美元家族辦公室Ceniarth揭露：十年投入逾3億美元影響力優先資金，涵蓋約90檔基金與60筆直投，近四年淨IRR 3.2%，扣除費用與通膨後實質約為零。罕見透明數據，可作家族配置基準。",
+       "sum_en": "Ceniarth, an $800m family office, has deployed over $300m of impact-first capital across about 90 funds and 60 direct deals. Its four-year net IRR was 3.2%, roughly zero after costs and inflation; breaking even needs about 4.5% gross. Rare, candid data for families sizing impact allocations.",
+       "sum_ja": "運用資産8億ドルのファミリーオフィスCeniarthは、約90本のファンドと60件の直接投資に3億ドル超のインパクト・ファースト資金を投じてきた。直近4年の純IRRは3.2%で、経費とインフレを差し引くと実質ほぼゼロ、損益分岐には約4.5%のグロスリターンが必要だという。配分を検討する一族にとって貴重な実績データである。",
+       "source": "ImpactAlpha",
+       "date": "2026-10-07",
+       "url": "https://impactalpha.com/impactalpha-lp-gp-break-even-results-for-ceniarths-impact-first-portfolio/"
+      },
+      {
+       "title_zh": "MacArthur基金會影響力投資額度擴大50%至7.5億美元",
+       "title_en": "MacArthur Foundation lifts its impact investment pool 50% to $750 million",
+       "title_ja": "マッカーサー財団、インパクト投資枠を5割増の7.5億ドルに拡大",
+       "sum_zh": "MacArthur基金會將影響力投資配置提高50%至7.5億美元，2027年起執行，回收資金滾動再投資，並延長至少6%捐贈支出承諾至2028年。大型基金會加碼，顯示影響力投資已成慈善常備工具。",
+       "sum_en": "The MacArthur Foundation is raising its impact investment allocation by 50% to $750m, starting in 2027, with repaid capital redeployed into new deals. It also extended its pledge to pay out at least 6% through 2028. A major foundation scaling up signals impact investing is now a core philanthropic tool.",
+       "sum_ja": "米マッカーサー財団はインパクト投資の配分を50%増やし総額7.5億ドルとする。2027年から実行し、回収資金は新たな投資に再投入する。あわせて支出率を少なくとも6%とする方針を2028年まで延長した。大手財団の積み増しは、インパクト投資がフィランソロピーの中核手段になったことを示す。",
+       "source": "MacArthur Foundation",
+       "date": "2026-10-08",
+       "url": "https://www.macfound.org/press/press-releases/dedicating-750-million-to-impact-investments",
+       "vocab": [
+        {
+         "term": "charitable payout",
+         "zh": "慈善支出率：基金會每年用於捐贈與慈善活動的資產比例",
+         "ja": "財団が毎年助成などの慈善目的に支出する資産の割合（ペイアウト率）",
+         "en": "share of assets a foundation spends on charity each year"
+        },
+        {
+         "term": "lines of credit",
+         "zh": "信用額度：可在核定上限內隨時動用的融資安排",
+         "ja": "与信枠・クレジットライン。上限内で随時引き出せる融資枠",
+         "en": "pre-approved borrowing limits that can be drawn as needed"
+        },
+        {
+         "term": "redeploy",
+         "zh": "回收資金再投入：投資收回後將資金重新配置到新案件",
+         "ja": "回収した資金を新たな投資案件に再配分すること",
+         "en": "put returned capital back to work in new investments"
+        }
+       ]
+      },
+      {
+       "title_zh": "Candide旗下氣候正義基金募得7,150萬美元，放款給社區型綠能開發商",
+       "title_en": "Afterglow Climate Justice Fund raises $71.5 million for community clean-energy lending",
+       "title_ja": "Afterglow気候正義ファンド、7150万ドルを調達　地域主体の再エネ開発に融資",
+       "sum_zh": "Candide Group的Afterglow氣候正義基金募得7,150萬美元，以彈性債權支持銀行不願承作的小型綠能開發商；MacArthur等以次順位債承擔風險，已放款3,500萬美元，示範慈善資本為商業資金鋪路。",
+       "sum_en": "Candide Group's Afterglow Climate Justice Fund raised $71.5m against a $100m ceiling to lend flexibly to small, first-time clean-energy developers banks avoid. Foundations including MacArthur provide subordinated debt; $35m is already lent. A blended structure showing how catalytic money can pave the way for commercial capital.",
+       "sum_ja": "Candide GroupのAfterglow気候正義ファンドは上限1億ドルに対し7150万ドルを調達し、銀行が敬遠する小規模・新規の再エネ開発者に柔軟な融資を行う。マッカーサー財団などが劣後債で損失を吸収し、既に3500万ドルを貸し出した。触媒的資金が商業資金への道を開く構造の好例である。",
+       "source": "ImpactAlpha",
+       "date": "2026-10-06",
+       "url": "https://impactalpha.com/afterglow-climate-justice-fund-raises-71-million-to-finance-community-owned-green-projects/"
+      },
+      {
+       "title_zh": "南韓推K-GX綠色轉型戰略，十年動員1,000兆韓元",
+       "title_en": "South Korea unveils K-GX strategy to mobilise 1,000 trillion won for green transformation",
+       "title_ja": "韓国、K-GX戦略を発表　10年で1000兆ウォンを動員",
+       "sum_zh": "南韓公布K-GX戰略，十年動員1,000兆韓元（約7,470億美元），其中570兆韓元為政策性氣候金融，230兆韓元預期來自民間；鎖定鋼鐵、石化、半導體減碳，再生能源目標100GW。與台灣產業結構相近，值得對照。",
+       "sum_en": "Seoul's K-GX strategy aims to mobilise 1,000tn won (about $747bn) over ten years: 200tn from budgets, 570tn in state-backed climate finance and 230tn from private projects. It targets steel, petrochemicals and chips, plus 100GW of renewables. A close benchmark for Taiwan's similar industrial mix.",
+       "sum_ja": "韓国政府はK-GX戦略で今後10年に1000兆ウォン（約7470億ドル）を動員する。内訳は予算200兆、政策系気候金融570兆、民間230兆ウォンで、鉄鋼・石化・半導体の脱炭素と再エネ100GWを掲げる。産業構造が近い台湾にとって重要な比較対象である。",
+       "source": "ESG Today",
+       "date": "2026-10-08",
+       "url": "https://www.esgtoday.com/south-korea-launches-750-billion-decarbonization-strategy/",
+       "vocab": [
+        {
+         "term": "credit guarantees",
+         "zh": "信用保證：由政府或機構為借款人債務提供擔保，降低放款風險",
+         "ja": "信用保証。政府や機関が借り手の債務を保証し、貸し手のリスクを下げる仕組み",
+         "en": "a promise by a third party to cover a borrower's debt"
+        },
+        {
+         "term": "regulatory incentives",
+         "zh": "法規誘因：透過法規設計鼓勵民間投入特定領域",
+         "ja": "規制上のインセンティブ。制度設計で民間投資を促す仕組み",
+         "en": "rules designed to encourage certain private investment"
+        },
+        {
+         "term": "industrial competitiveness",
+         "zh": "產業競爭力：一國產業在國際市場的競爭能力",
+         "ja": "産業競争力。国内産業が国際市場で戦える力",
+         "en": "a country's industries' ability to compete globally"
+        }
+       ]
+      },
+      {
+       "title_zh": "香港發行200億港元數碼綠色債券，創全球數位債最大規模",
+       "title_en": "Hong Kong prices record $2.6 billion digital green bond",
+       "title_ja": "香港、過去最大26億ドルのデジタル・グリーンボンドを発行",
+       "sum_zh": "香港特區政府定價約200億港元（26億美元）數碼綠色債券，分港元、人民幣、美元、歐元四檔，認購倍數1.3至11.3倍，並首度以代幣化存款完成港元檔交割。綠色金融結合代幣化，鞏固香港作為亞洲永續資本樞紐的地位。",
+       "sum_en": "Hong Kong priced about HK$20bn ($2.6bn) of digital green bonds, the largest digital bond yet, in HKD, RMB, USD and euro tranches, 1.3 to 11.3 times subscribed. Tokenised deposits were used to settle the HKD tranche, merging green finance and tokenisation in Asia's sustainable capital hub.",
+       "sum_ja": "香港政府は約200億香港ドル（26億ドル）のデジタル・グリーンボンドを発行した。デジタル債として過去最大で、香港ドル・人民元・米ドル・ユーロの4トランシェ、応募倍率は1.3〜11.3倍。香港ドル建ての決済には初めてトークン化預金を用い、グリーン金融とトークン化の融合を示した。",
+       "source": "ESG Today",
+       "date": "2026-10-06",
+       "url": "https://www.esgtoday.com/hong-kong-issues-record-2-6-billion-digital-green-bond/",
+       "vocab": [
+        {
+         "term": "tokenised deposits",
+         "zh": "代幣化存款：以區塊鏈代幣形式表彰的銀行存款，可用於鏈上即時交割",
+         "ja": "トークン化預金。銀行預金をブロックチェーン上のトークンで表したもの",
+         "en": "bank deposits represented as blockchain tokens"
+        },
+        {
+         "term": "subscription ratios",
+         "zh": "認購倍數：投資人認購金額相對於發行額的倍數",
+         "ja": "応募倍率。発行額に対する投資家の申込額の倍率",
+         "en": "how many times demand exceeded the amount offered"
+        },
+        {
+         "term": "primary issuance",
+         "zh": "初級發行：證券首次由發行人售予投資人的階段",
+         "ja": "プライマリー発行。発行体が投資家に初めて証券を売り出す段階",
+         "en": "first-time sale of securities by the issuer"
+        }
+       ]
+      },
+      {
+       "title_zh": "挪威主權基金NBIM承諾12億歐元投入CIP旗艦再生能源基金",
+       "title_en": "NBIM commits €1.2 billion to CIP's new flagship clean energy fund",
+       "title_ja": "ノルウェーNBIM、CIPの再エネ旗艦ファンドに12億ユーロを拠出",
+       "sum_zh": "挪威石油基金管理機構NBIM承諾12億歐元投入CIP第六代旗艦基金，該基金據報目標160億歐元，投資北美、西歐與亞太再生能源及儲能。主權資金持續押注能源轉型基礎建設。",
+       "sum_en": "NBIM, manager of Norway's roughly $2tn oil fund, committed €1.2bn (about $1.34bn) to Copenhagen Infrastructure Partners' CI VI, which reportedly seeks €16bn for renewables and storage across North America, Western Europe and Asia Pacific. Sovereign money keeps backing transition infrastructure.",
+       "sum_ja": "約2兆ドルのノルウェー石油基金を運用するNBIMは、コペンハーゲン・インフラストラクチャー・パートナーズの旗艦ファンドCI VIに12億ユーロ（約13.4億ドル）を拠出する。同ファンドは160億ユーロの調達を目指すとされ、北米・西欧・アジア太平洋の再エネと蓄電に投資する。",
+       "source": "ESG Today",
+       "date": "2026-10-05",
+       "url": "https://www.esgtoday.com/nbim-commits-over-1-3-billion-to-cips-new-flagship-clean-energy-infrastructure-fund/",
+       "vocab": [
+        {
+         "term": "flagship fund",
+         "zh": "旗艦基金：資產管理公司規模最大、最具代表性的主力基金系列",
+         "ja": "旗艦ファンド。運用会社の主力となる最大規模のファンドシリーズ",
+         "en": "a manager's main, largest fund series"
+        },
+        {
+         "term": "final close",
+         "zh": "最終關帳：私募基金停止接受新投資人承諾的募資截止點",
+         "ja": "ファイナルクローズ。私募ファンドが募集を締め切ること",
+         "en": "the point when a fund stops taking new commitments"
+        },
+        {
+         "term": "low-risk countries",
+         "zh": "低風險國家：政治、法規與信用風險較低的投資市場",
+         "ja": "低リスク国。政治・規制・信用リスクが低い投資先の国",
+         "en": "markets with low political and credit risk"
+        }
+       ]
+      },
+      {
+       "title_zh": "美SEC結束調查BlackRock、State Street，但警告參與氣候倡議恐觸法",
+       "title_en": "SEC drops BlackRock, State Street probe but warns on climate group participation",
+       "title_ja": "米SEC、ブラックロックとステート・ストリートへの調査を終結　気候イニシアチブ参加には警告",
+       "sum_zh": "美SEC決定不對參與Climate Action 100+的BlackRock、State Street採取執法行動，但警告被動投資人協同議合可能被視為持股逾5%的「集團」，喪失簡易申報資格，恐冷卻跨機構氣候議合。",
+       "sum_en": "The SEC will not pursue enforcement against BlackRock, State Street and others over Climate Action 100+, but warned that coordinated engagement could make large passive investors a 'group' holding over 5%, costing them simpler Schedule 13G filing status. A likely chill on collective climate stewardship.",
+       "sum_ja": "米SECは、Climate Action 100+に参加したブラックロックやステート・ストリートなどへの執行措置を見送った。ただし協調的エンゲージメントにより大手パッシブ投資家が5%超を保有する「グループ」とみなされ、簡易な13G報告の資格を失い得ると警告した。共同での気候エンゲージメントは萎縮しそうだ。",
+       "source": "ESG Today",
+       "date": "2026-10-08",
+       "url": "https://www.esgtoday.com/sec-drops-investigation-into-blackrock-state-street-with-a-warning-over-participation-in-climate-groups/",
+       "vocab": [
+        {
+         "term": "enforcement action",
+         "zh": "執法行動：監管機關對違規者採取的處分或訴追",
+         "ja": "執行措置。規制当局が違反者に対して取る処分や訴追",
+         "en": "steps a regulator takes against rule breakers"
+        },
+        {
+         "term": "coordinated engagement",
+         "zh": "協同議合：多家投資人聯合與被投資公司對話、施加影響",
+         "ja": "協調的エンゲージメント。複数の投資家が共同で企業と対話すること",
+         "en": "investors jointly pressing companies on issues"
+        },
+        {
+         "term": "proxy advisory firms",
+         "zh": "代理投票顧問公司：為機構投資人提供股東會投票建議的機構",
+         "ja": "議決権行使助言会社。機関投資家に議決権行使の推奨を行う会社",
+         "en": "firms advising investors how to vote at AGMs"
+        }
+       ]
+      },
+      {
+       "title_zh": "Robeco調查：82%投資人預期十年內實體氣候風險將衝擊資產價格",
+       "title_en": "Robeco survey: 82% of investors expect physical climate risks to hit asset prices within a decade",
+       "title_ja": "ロベコ調査、投資家の82%が10年以内に物理的気候リスクが資産価格に影響と予想",
+       "sum_zh": "Robeco調查300位、合計逾35兆美元資產的投資人：82%預期十年內實體氣候風險將影響資產價格，63%認為五年內將左右策略性資產配置，42%計畫一年內加碼氣候解方。氣候已成定價問題。",
+       "sum_en": "Robeco's survey of 300 investors managing over $35tn across Europe, North America, Asia-Pacific and South Africa found 82% expect physical climate risks to affect asset prices within ten years and 63% see strategic asset allocation affected within five. 42% plan to add climate-solution exposure within a year.",
+       "sum_ja": "ロベコが欧米、アジア太平洋、南アフリカの投資家300人（運用総額35兆ドル超）を調査したところ、82%が10年以内に物理的気候リスクが資産価格に影響すると予想し、63%が5年以内に戦略的資産配分にも及ぶとみる。42%は1年以内に気候ソリューションへの配分を増やす計画だ。",
+       "source": "ESG Today",
+       "date": "2026-10-07",
+       "url": "https://www.esgtoday.com/82-of-investors-expect-climate-risks-to-impact-asset-prices-over-next-decade-robeco-survey/",
+       "vocab": [
+        {
+         "term": "physical climate risks",
+         "zh": "實體氣候風險：極端天氣、海平面上升等對資產造成的直接損害風險",
+         "ja": "物理的気候リスク。異常気象や海面上昇が資産に直接与える損害リスク",
+         "en": "direct damage risks from extreme weather and warming"
+        },
+        {
+         "term": "strategic asset allocation",
+         "zh": "策略性資產配置：依長期目標設定各類資產的基準比重",
+         "ja": "戦略的資産配分。長期目標に基づく資産クラス別の基本配分",
+         "en": "long-term target mix of asset classes"
+        },
+        {
+         "term": "asset manager selection",
+         "zh": "資產管理人遴選：資產擁有者挑選委外操作機構的流程",
+         "ja": "運用会社の選定。アセットオーナーが委託先を選ぶプロセス",
+         "en": "choosing which fund managers to hire"
+        }
+       ]
+      },
+      {
+       "title_zh": "Aviva Investors與荷銀注資1億歐元，擴大循環混凝土平台SL Materials",
+       "title_en": "Aviva Investors, ABN AMRO invest €100 million in circular concrete platform SL Materials",
+       "title_ja": "アビバ・インベスターズとABNアムロ、循環型コンクリートのSL Materialsに1億ユーロ出資",
+       "sum_zh": "Aviva Investors與荷銀永續影響力基金合投1億歐元於SL Materials，從拆除混凝土回收砂石與水泥再製新料並擴充產能。水泥約占全球二氧化碳排放8%，循環建材成影響力資金新標的。",
+       "sum_en": "Aviva Investors and ABN AMRO's Sustainable Impact Fund put €100m (about $112m) into Dutch firm SL Materials, which recovers sand, gravel and cement from demolished concrete, to add capacity and sites. With cement about 8% of global CO2, circular building materials are drawing impact capital.",
+       "sum_ja": "アビバ・インベスターズとABNアムロのサステナブル・インパクト・ファンドは、解体コンクリートから砂・砂利・セメントを回収するオランダのSL Materialsに1億ユーロ（約1.12億ドル）を投じ、生産能力と拠点を拡大する。セメントは世界のCO2排出の約8%を占め、循環型建材がインパクト資金の新たな対象となっている。",
+       "source": "ESG Today",
+       "date": "2026-10-07",
+       "url": "https://www.esgtoday.com/aviva-investors-abn-amro-invest-e100-million-in-circular-concrete-platform-sl-materials/",
+       "vocab": [
+        {
+         "term": "production capacity",
+         "zh": "產能：工廠在一定期間內可生產的最大數量",
+         "ja": "生産能力。一定期間に生産できる最大量",
+         "en": "maximum output a facility can produce"
+        },
+        {
+         "term": "commercial scale",
+         "zh": "商業規模：技術已從試驗階段進入可獲利量產的規模",
+         "ja": "商業規模。実証段階を超え採算の取れる量産規模",
+         "en": "large enough to operate profitably as a business"
+        },
+        {
+         "term": "wholly owned subsidiary",
+         "zh": "百分之百持股子公司：母公司持有全部股權的子公司",
+         "ja": "完全子会社。親会社が株式を100%保有する子会社",
+         "en": "a company fully owned by its parent"
+        }
+       ]
+      }
+     ],
+     "gvc": [
+      {
+       "title_zh": "Crunchbase：2026年第三季全球創投1,590億美元，十億美元級大案創紀錄",
+       "title_en": "Crunchbase: Global venture hits $159B in Q3 2026 with a record count of $1B+ rounds",
+       "title_ja": "Crunchbase：2026年7～9月の世界VC投資は1590億ドル、10億ドル超の大型調達が過去最多",
+       "sum_zh": "第三季全球創投金額1,590億美元，較第二季減25%、年增53%；27家公司單輪募資逾10億美元創紀錄，AI拿下1,020億美元、占64%。前三季累計6,790億美元為史上同期最高，資金高度集中於AI龍頭。",
+       "sum_en": "Global venture funding reached $159B in Q3, down 25% from Q2 but up 53% year on year. A record 27 companies raised $1B+ rounds and AI took $102B, or 64%. The $679B nine-month total is the highest on record, showing capital piling into AI leaders.",
+       "sum_ja": "第3四半期の世界VC投資額は1590億ドルで、前期比25%減、前年同期比53%増となった。10億ドル以上の調達は過去最多の27社、AI関連は1020億ドルで全体の64%を占めた。1～9月累計の6790億ドルは過去最高で、資金がAI大手に集中している。",
+       "source": "Crunchbase News",
+       "date": "2026-10-05",
+       "url": "https://news.crunchbase.com/venture/q3-2026-global-startup-funding-ai-billion-dollar-rounds-exits-data/",
+       "vocab": [
+        {
+         "term": "quarter over quarter",
+         "zh": "季增／季減：與上一季相比的變化",
+         "ja": "前四半期比（QoQ）",
+         "en": "compared with the previous quarter"
+        },
+        {
+         "term": "jumbo sized rounds",
+         "zh": "超大型募資輪，通常指數億美元以上的單輪融資",
+         "ja": "超大型の資金調達ラウンド",
+         "en": "exceptionally large funding rounds"
+        },
+        {
+         "term": "exits",
+         "zh": "出場：投資人透過IPO或併購回收資金",
+         "ja": "イグジット（IPOやM&Aによる投資回収）",
+         "en": "ways investors cash out, such as IPOs or acquisitions"
+        }
+       ]
+      },
+      {
+       "title_zh": "北美第三季新創募資920億美元，季減35%但AI仍占三分之二",
+       "title_en": "North American startup funding falls to $92B in Q3 as AI giants eye IPOs",
+       "title_ja": "北米スタートアップ投資、7～9月は920億ドルに減少　AI大手は上場視野",
+       "sum_zh": "美加新創第三季募得920億美元，季減35%、年增50%，主因OpenAI與Anthropic本季未再有巨額融資；AI相關占610億美元。輝達129億美元併購Hugging Face居首，17家創投支持企業IPO僅募近40億美元。",
+       "sum_en": "US and Canadian startups raised $92B in Q3, down 35% from Q2 but up 50% year on year, largely because OpenAI and Anthropic had no new mega-raises. AI took $61B. Nvidia's $12.93B Hugging Face deal led M&A, while 17 venture-backed IPOs raised under $4B.",
+       "sum_ja": "米国・カナダのスタートアップの第3四半期調達額は920億ドルで、前期比35%減、前年同期比50%増だった。OpenAIとAnthropicの巨額調達がなかったことが主因で、AI関連は610億ドル。M&AではNvidiaによるHugging Face買収（129.3億ドル）が最大、VC出資企業17社のIPO調達額は40億ドル弱にとどまった。",
+       "source": "Crunchbase News",
+       "date": "2026-10-07",
+       "url": "https://news.crunchbase.com/venture/q3-2026-north-america-startup-funding-falls-ai-exits-data/",
+       "vocab": [
+        {
+         "term": "megarounds",
+         "zh": "巨額融資輪，通常指單輪1億美元以上",
+         "ja": "メガラウンド（通常1億ドル以上の大型調達）",
+         "en": "very large funding rounds, typically $100M or more"
+        },
+        {
+         "term": "sequentially",
+         "zh": "與前一期（上一季）相比",
+         "ja": "前期比で（直前の四半期と比べて）",
+         "en": "compared with the immediately preceding period"
+        },
+        {
+         "term": "bearish",
+         "zh": "看空、偏悲觀的市場氛圍",
+         "ja": "弱気の（相場や投資環境が悲観的な）",
+         "en": "pessimistic about the market"
+        }
+       ]
+      },
+      {
+       "title_zh": "歐洲第三季創投250億美元，創四年來最佳單季",
+       "title_en": "Europe posts $25B Q3, its strongest venture quarter in four years",
+       "title_ja": "欧州のVC投資、7～9月は250億ドルで4年ぶりの高水準",
+       "sum_zh": "歐洲第三季創投達250億美元，年增77%；AI占75%（188億美元）創新高，國防、資料中心、能源等實體科技約占一半。英國75億美元居首，德、法緊追；Mistral募35億美元為歐洲史上最大創投輪。",
+       "sum_en": "European startups raised $25B in Q3, up 77% year on year. AI took a record 75% ($18.8B), and physical tech such as defense, data centers and energy made up about half. The UK led with $7.5B, ahead of Germany and France; Mistral's $3.5B was Europe's largest venture round ever.",
+       "sum_ja": "欧州の第3四半期VC投資は250億ドルで前年同期比77%増。AIが過去最高の75%（188億ドル）を占め、防衛・データセンター・エネルギーなどフィジカル系が約半分に達した。国別では英国が75億ドルで首位、独仏が続く。Mistralの35億ドルは欧州史上最大のVCラウンドだ。",
+       "source": "Crunchbase News",
+       "date": "2026-10-08",
+       "url": "https://news.crunchbase.com/venture/q3-2026-europe-strong-quarter-ai-uk-germany-france/",
+       "vocab": [
+        {
+         "term": "convertible note",
+         "zh": "可轉換票據：先以債權形式投資，日後轉為股權",
+         "ja": "転換社債型の手形（後に株式へ転換できる債務）",
+         "en": "debt that can later convert into equity"
+        },
+        {
+         "term": "physical tech",
+         "zh": "實體科技：國防、能源、機器人等硬體導向領域",
+         "ja": "フィジカルテック（防衛・エネルギー・ロボットなどハード領域）",
+         "en": "hardware-heavy sectors like defense, energy and robotics"
+        },
+        {
+         "term": "late-stage",
+         "zh": "後期階段（如C輪以後、接近IPO的融資）",
+         "ja": "レイターステージ（上場に近い後期段階）",
+         "en": "the mature funding stage closer to an exit"
+        }
+       ]
+      },
+      {
+       "title_zh": "與Meta分手後首輪融資：中國AI代理新創Manus募逾5億美元",
+       "title_en": "China's Manus raises over $500M in first round since Meta deal collapsed",
+       "title_ja": "中国AIエージェントのManus、Meta買収破談後初の調達で5億ドル超",
+       "sum_zh": "AI代理新創Manus完成逾5億美元融資，由博裕資本與IDG領投、騰訊與紅杉中國（HSG）跟投。Meta原以20億美元收購，4月遭中國當局要求撤銷；此輪顯示中國資本接手AI人才與技術，公司並考慮赴港上市。",
+       "sum_en": "AI agent startup Manus raised over $500M led by Boyu Capital and IDG Capital, with Tencent and HSG joining. Meta's $2B acquisition was unwound after Chinese authorities intervened in April. The round shows domestic capital stepping in; Manus is reportedly weighing a Hong Kong IPO.",
+       "sum_ja": "AIエージェントのManusが5億ドル超を調達した。博裕資本とIDGキャピタルが主導し、テンセントやHSGも参加。Metaによる20億ドルの買収は4月に中国当局の指示で撤回されており、国内資本が受け皿となった形だ。香港上場も検討しているという。",
+       "source": "TechCrunch",
+       "date": "2026-10-08",
+       "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+       "vocab": [
+        {
+         "term": "existing shareholders",
+         "zh": "既有股東（先前輪次已投資者）",
+         "ja": "既存株主",
+         "en": "investors who already own shares"
+        },
+        {
+         "term": "call off",
+         "zh": "取消（交易、計畫）",
+         "ja": "（取引などを）中止する、撤回する",
+         "en": "to cancel"
+        },
+        {
+         "term": "going public",
+         "zh": "公開上市（IPO）",
+         "ja": "株式上場すること",
+         "en": "listing shares on a stock exchange"
+        }
+       ]
+      },
+      {
+       "title_zh": "Endeavor Catalyst第五號基金3.2億美元關帳，加碼亞洲等新興市場",
+       "title_en": "Endeavor Catalyst closes $320M Fund V, expanding focus on Asia",
+       "title_ja": "Endeavor Catalyst、3億2000万ドルの5号ファンドを最終クローズ　アジア重視",
+       "sum_zh": "創業家組織Endeavor旗下創投Endeavor Catalyst第五號基金以3.2億美元關帳，管理資產突破8.5億美元，將擴大布局亞洲與新興創業市場。其亞洲已投44家、4,680萬美元，但自2025年以來在亞洲尚無出場案例。",
+       "sum_en": "Endeavor Catalyst, the VC arm of Endeavor, closed Fund V at $320M, lifting AUM above $850M and widening its focus on Asia and other emerging startup markets. It has put $46.8M into 44 Asian companies but has had no liquidity events in Asia since 2025.",
+       "sum_ja": "起業家支援団体Endeavorの投資部門Endeavor Catalystが5号ファンドを3億2000万ドルで締め切り、運用資産は8億5000万ドル超となった。アジアなど新興市場への投資を拡大する。アジアでは44社に4680万ドルを投じたが、2025年以降、同地域でのイグジットはない。",
+       "source": "DealStreetAsia",
+       "date": "2026-10-08",
+       "url": "https://www.dealstreetasia.com/stories/endeavor-catalysts-fund-v-497496",
+       "vocab": [
+        {
+         "term": "follow-on rounds",
+         "zh": "追加投資輪：對既有投資組合公司後續輪次加碼",
+         "ja": "フォローオン投資（既存投資先の追加ラウンド）",
+         "en": "later rounds in companies already backed"
+        },
+        {
+         "term": "liquidity events",
+         "zh": "流動性事件：IPO、併購等讓投資變現的事件",
+         "ja": "流動性イベント（IPOや売却など換金の機会）",
+         "en": "events that turn holdings into cash, like an IPO or sale"
+        },
+        {
+         "term": "growth equity",
+         "zh": "成長型股權投資：投資已有營收、擴張中的企業",
+         "ja": "グロース・エクイティ（成長期企業への株式投資）",
+         "en": "equity investment in established, expanding companies"
+        }
+       ]
+      },
+      {
+       "title_zh": "美國醫療投資機構TCGX募得6億美元，首檔亞洲生技基金成立",
+       "title_en": "TCGX secures $600M for its first Asia life sciences fund",
+       "title_ja": "米TCGX、初のアジア向けバイオファンドで6億ドルを確保",
+       "sum_zh": "美國醫療創投TCGX為首檔亞洲生命科學基金募得6億美元承諾資金，投資涵蓋各發展階段、聚焦開發全球市場新藥的亞洲生技公司，並在上海與香港設點，反映國際資金看好亞洲早期新藥研發動能。",
+       "sum_en": "US healthcare investor TCGX secured $600M in commitments for TCGX Asia Life Sciences Fund I, backing Asian biotechs at all stages that develop drugs for global markets. It is opening offices in Shanghai and Hong Kong, signaling global capital's bet on Asia's early-stage drug discovery.",
+       "sum_ja": "米ヘルスケア投資会社TCGXが「TCGX Asia Life Sciences Fund I」で6億ドルのコミットメントを確保した。世界市場向けの新薬を開発するアジアのバイオ企業に全ステージで投資し、上海と香港に拠点を開設する。アジアの創薬力への国際資本の期待を示す。",
+       "source": "DealStreetAsia",
+       "date": "2026-10-09",
+       "url": "https://www.dealstreetasia.com/stories/tcgx-asia-biotech-fund-497652",
+       "vocab": [
+        {
+         "term": "flagship funds",
+         "zh": "旗艦基金：投資機構的主力核心基金",
+         "ja": "旗艦ファンド（運用会社の主力ファンド）",
+         "en": "a firm's main, core funds"
+        },
+        {
+         "term": "institutional investors",
+         "zh": "機構投資人（退休基金、保險公司、主權基金等）",
+         "ja": "機関投資家",
+         "en": "large organizations that invest, like pensions and insurers"
+        },
+        {
+         "term": "drug discovery",
+         "zh": "新藥探索：尋找並驗證候選藥物的研發階段",
+         "ja": "創薬（新薬候補の探索・研究）",
+         "en": "the research process of finding new medicines"
+        }
+       ]
+      },
+      {
+       "title_zh": "本週美國十大融資：Axiom獲20億美元戰略投資，AI與能源領跑",
+       "title_en": "Week's biggest US rounds: Axiom's $2B strategic deal leads AI and energy lineup",
+       "title_ja": "今週の米大型調達：Axiomの20億ドル戦略投資が首位、AIとエネルギーが上位独占",
+       "sum_zh": "美國10月3至9日十大融資中，Flex分拆的雲端與電力基礎設施公司Axiom獲General Catalyst等20億美元戰略投資，企業價值375億美元；TypeSafe AI募8.7億美元，顯示AI算力與能源仍是資金焦點。",
+       "sum_en": "In the Oct. 3–9 top-10 list, Flex spinout Axiom, a cloud and power infrastructure firm, drew a $2B strategic investment from General Catalyst and Koch Equity at a $37.5B initial enterprise value. TypeSafe AI raised $870M and quantum firm Oratomic $475M, as compute and energy keep attracting capital.",
+       "sum_ja": "10月3～9日の米大型調達トップ10では、Flexから分離したクラウド・電力インフラ企業AxiomがGeneral CatalystとKoch Equityから20億ドルの戦略投資を受けた（当初企業価値375億ドル）。TypeSafe AIが8億7000万ドル、量子のOratomicが4億7500万ドルと続き、計算資源とエネルギーに資金が集まる。",
+       "source": "Crunchbase News",
+       "date": "2026-10-09",
+       "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-ai-energy-cloud-axiom-typesafe/",
+       "vocab": [
+        {
+         "term": "strategic investment",
+         "zh": "戰略投資：著眼業務綜效而非單純財務報酬的投資",
+         "ja": "戦略的投資（事業シナジーを狙う出資）",
+         "en": "an investment made for business or partnership reasons"
+        },
+        {
+         "term": "enterprise value",
+         "zh": "企業價值：股權價值加淨負債",
+         "ja": "企業価値（EV：株式価値＋純有利子負債）",
+         "en": "a company's total value including debt minus cash"
+        },
+        {
+         "term": "run rate",
+         "zh": "年化營運水準：以近期數據推估的全年數字",
+         "ja": "ランレート（直近実績を年換算した数値）",
+         "en": "current performance extrapolated to a full year"
+        }
+       ]
+      },
+      {
+       "title_zh": "企業支出管理新創Ramp募18.5億美元，估值上看600億美元",
+       "title_en": "Ramp raises about $1.85B at a roughly $60B valuation",
+       "title_ja": "法人経費管理のRamp、約18億5000万ドル調達　評価額は約600億ドル",
+       "sum_zh": "據彭博報導，金融科技新創Ramp以約600億美元投前估值募得約18.5億美元，由Dragoneer與Thrive Capital領投。6月估值才440億美元，四個月大增約160億美元，反映資金持續追捧高成長AI金融科技。",
+       "sum_en": "Fintech Ramp raised about $1.85B at a roughly $60B valuation before the new money, Bloomberg reported, led by Dragoneer and Thrive Capital with Founders Fund investing heavily. It was valued at $44B in June, a ~$16B jump in four months; annualised revenue topped $1.5B by June.",
+       "sum_ja": "Bloombergによると、フィンテックのRampが新規資金を含まない評価額約600億ドルで約18億5000万ドルを調達した。DragoneerとThrive Capitalが主導し、Founders Fundも大口出資。6月の評価額440億ドルから4カ月で約160億ドル上昇し、年換算売上高は6月時点で15億ドルを超えていた。",
+       "source": "The Next Web (citing Bloomberg)",
+       "date": "2026-10-10",
+       "url": "https://thenextweb.com/news/ramp-60bn-valuation-1-85bn-round",
+       "vocab": [
+        {
+         "term": "new money",
+         "zh": "新增資金：本輪新投入的資本（區分投前／投後估值的關鍵）",
+         "ja": "新規資金（今回ラウンドで新たに投じられる資本）",
+         "en": "fresh capital invested in the current round"
+        },
+        {
+         "term": "annualised revenue",
+         "zh": "年化營收：以近期營收推算的全年數字",
+         "ja": "年換算売上高",
+         "en": "recent revenue scaled up to a yearly figure"
+        },
+        {
+         "term": "people familiar with the matter",
+         "zh": "知情人士（新聞常用的匿名消息來源說法）",
+         "ja": "事情に詳しい関係者",
+         "en": "anonymous sources with inside knowledge"
+        }
+       ]
+      }
+     ],
+     "twvc": [
+      {
+       "title_zh": "第三季台灣新創僅4筆重大募資，晶智達3.4億元居冠",
+       "title_en": "Taiwan startups log only four major rounds in Q3; iReach tops list at NT$340 million",
+       "title_ja": "台湾スタートアップの第3四半期大型調達は4件のみ、晶智達の3.4億元が首位",
+       "sum_zh": "Meet盤點2026年第三季重大募資僅4筆，遠低於首季14筆、次季10筆，總額約6.7億元。晶智達獲達盈領投、國發基金跟投3.4億元，FUNNOW獲和泰約3.18億元C輪，資金明顯集中於少數案件。",
+       "sum_en": "Meet counted just four major Taiwanese startup rounds in Q3 2026, down from 14 in Q1 and 10 in Q2, totaling about NT$670 million. VCSEL maker iReach raised NT$340 million led by 達盈 with the National Development Fund, and FUNNOW took about NT$318 million from Hotai, showing capital concentrating in a few deals.",
+       "sum_ja": "Meetの集計では、2026年第3四半期の台湾スタートアップの大型調達は4件にとどまり、第1四半期の14件、第2四半期の10件から大きく減った。総額は約6.7億台湾ドル。VCSEL開発の晶智達が国発基金も参加する3.4億元、FUNNOWが和泰から約3.18億元を調達し、資金は少数案件に集中している。",
+       "source": "Meet創業小聚（數位時代）",
+       "date": "2026-10-06",
+       "url": "https://meet.bnext.com.tw/articles/view/53554"
+      },
+      {
+       "title_zh": "量子點新創來成光子啟動500萬美元種子輪，半數獲台灣半導體大廠表態",
+       "title_en": "Quantum-dot startup AilumiQ seeks US$5 million seed round, half pledged by a Taiwanese chip major",
+       "title_ja": "量子ドット新興の来成光子、500万ドルのシード調達へ　半額は台湾半導体大手が出資意向",
+       "sum_zh": "2025年成立的來成光子以AI自動化合成短波紅外線量子點墨水，可直接塗佈於CMOS晶圓，估可讓相機模組成本降10至100倍。種子輪目標500萬美元，其中250萬美元已獲台灣一線半導體廠投資意向並進入簽約，其餘向海外募集。",
+       "sum_en": "Founded in 2025, AilumiQ uses AI-driven automated synthesis to make short-wave infrared quantum-dot ink that coats directly onto CMOS wafers, claiming 10–100x lower camera-module costs. It targets a US$5 million seed round; US$2.5 million has investment intent from a top-tier Taiwanese semiconductor firm and is nearing signing, with the rest sought overseas.",
+       "sum_ja": "2025年設立の来成光子は、AIによる自動合成で短波赤外の量子ドットインクを開発し、CMOSウエハーに直接塗布できる。カメラモジュールのコストを10〜100分の1にできるとする。シード調達の目標は500万ドルで、うち250万ドルは台湾の大手半導体企業が出資意向を示し契約段階に入った。残りは海外で募る。",
+       "source": "Meet創業小聚（數位時代）",
+       "date": "2026-10-08",
+       "url": "https://meet.bnext.com.tw/articles/view/53557"
+      },
+      {
+       "title_zh": "台北AI算力商KONST完成3,000萬美元B輪，威剛領投",
+       "title_en": "Taipei AI compute operator KONST raises US$30 million Series B led by ADATA",
+       "title_ja": "台北のAI計算基盤KONST、ADATA主導で3,000万ドルのシリーズB",
+       "sum_zh": "總部在台北的KONST完成3,000萬美元B輪，由威剛領投，摩比和協、和鼎創投等企業投資人參與。資金將擴大亞洲AI資料中心建置並推進「Token Factory」布局，凸顯記憶體、電子製造業者以策略投資卡位AI算力供應鏈。",
+       "sum_en": "Taipei-headquartered KONST closed a US$30 million Series B led by ADATA, joined by corporate investors including M Mobility and Pegatron Venture Capital. It will expand AI data center buildout across Asia and push its Token Factory strategy, a sign that memory and electronics makers are using strategic stakes to secure a place in the AI compute supply chain.",
+       "sum_ja": "台北に本社を置くKONSTは、ADATAが主導し、M MobilityやPegatron系ベンチャーキャピタルなど事業会社が参加するシリーズBで3,000万ドルを調達した。資金はアジアでのAIデータセンター建設拡大と「Token Factory」戦略に充てる。メモリーや電子機器製造の企業が戦略出資でAI計算資源の供給網に食い込む動きを示す。",
+       "source": "TNGlobal (PR Newswire)",
+       "date": "2026-10-09",
+       "url": "https://technode.global/?p=994908",
+       "vocab": [
+        {
+         "term": "proceeds",
+         "zh": "募得款項；增資或融資實際取得的資金",
+         "ja": "調達資金（手取金）",
+         "en": "the money raised from a funding round or sale"
+        },
+        {
+         "term": "synergies",
+         "zh": "綜效；合作後產生大於個別相加的效益",
+         "ja": "相乗効果（シナジー）",
+         "en": "extra value created when parties combine their strengths"
+        },
+        {
+         "term": "per-second billing",
+         "zh": "按秒計費；依實際使用秒數收費",
+         "ja": "秒単位課金",
+         "en": "charging customers for each second of actual usage"
+        }
+       ]
+      },
+      {
+       "title_zh": "生技產值8,301億元，醫療新創募資件數與金額卻雙降",
+       "title_en": "Biotech revenue hits NT$830.1 billion, but health startup deals and funding both fall",
+       "title_ja": "バイオ産業売上高8,301億元も、医療スタートアップ投資は件数・金額とも減少",
+       "sum_zh": "勤業眾信陳重成指出，2025年台灣生技產業營收8,301億元、年增7.05%，但健康醫療新創募資126件、6.6億美元，件數與金額分別減11%、16%。獲投新創年齡中位數升至5至6年，資金被AI與半導體吸走，新創須提早規劃商業化。",
+       "sum_en": "Deloitte Taiwan's Chen Chung-cheng said Taiwan's biotech revenue reached NT$830.1 billion in 2025, up 7.05%, yet health startups closed 126 deals worth US$660 million, down 11% in count and 16% in value. The median age of funded firms rose to 5–6 years as AI and chips draw capital away, so startups must plan commercialization earlier.",
+       "sum_ja": "勤業衆信（デロイト台湾）の陳重成氏によると、2025年の台湾バイオ産業売上高は8,301億元で前年比7.05%増だった。一方、医療スタートアップの調達は126件・6.6億ドルで、件数は11%、金額は16%減った。出資先企業の年齢中央値は5〜6年に上昇した。資金がAIや半導体に流れており、早期の事業化計画が欠かせない。",
+       "source": "經濟日報",
+       "date": "2026-10-07",
+       "url": "https://money.udn.com/money/story/5612/9800908"
+      },
+      {
+       "title_zh": "政院通過中小微企業轉型升級條例，8年千億元並增新創專章",
+       "title_en": "Cabinet approves SME upgrade act with NT$100 billion over eight years and a new startup chapter",
+       "title_ja": "行政院、中小零細企業の転換・高度化条例案を可決　8年で1,000億元、新興企業章を新設",
+       "sum_zh": "行政院10月8日通過「中小微企業轉型升級發展條例」草案，經濟部8年投入1,000億元，並新增「新創企業培育專章」。研發投資抵減率提高至20%，轉型設備抵減門檻降至25萬元。草案送立法院審議，將影響新創取得資源的管道。",
+       "sum_en": "On October 8 the Executive Yuan approved a draft act on transforming and upgrading small, medium and micro enterprises, with NT$100 billion from the economics ministry over eight years and a new chapter on startup incubation. The R&D tax credit rate rises to 20% and the equipment credit threshold drops to NT$250,000. The bill now goes to the legislature.",
+       "sum_ja": "行政院は10月8日、「中小零細企業転換高度化発展条例」草案を可決した。経済部が8年で1,000億元を投じ、「新興企業育成」の章を新設する。研究開発投資の税額控除率は20%に上がり、転換設備の控除の下限額は25万元に下がる。草案は立法院の審議に回る。",
+       "source": "中央社",
+       "date": "2026-10-08",
+       "url": "https://www.cna.com.tw/news/aipl/202610080165.aspx"
+      },
+      {
+       "title_zh": "創新板股票首度可發權證，4檔14支權證10月6日上市",
+       "title_en": "Innovation Board stocks become warrant underlyings, with 14 warrants on four names listing Oct. 6",
+       "title_ja": "創新板銘柄が初めてワラント対象に　4銘柄14本が10月6日上場",
+       "sum_zh": "證交所9月30日宣布權證新制，開放創新板股票作為權證標的，富田、聯友金屬、熙特爾、微矽電子4檔符合資格，共14支權證於10月6日上市。發行額度上限等調整給3個月緩衝，2027年1月1日生效，有助提升創新板流動性。",
+       "sum_en": "TWSE announced warrant rule changes on Sept. 30 that let Taiwan Innovation Board stocks serve as underlyings. Four Innovation Board stocks qualified, and 14 warrants listed on Oct. 6. Changes to issuance caps get a three-month grace period and take effect Jan. 1, 2027, a step expected to improve liquidity on the startup-oriented board.",
+       "sum_ja": "証券取引所は9月30日にワラント制度の見直しを発表し、創新板銘柄をワラントの原資産として認めた。富田や微矽電子など4銘柄が条件を満たし、計14本が10月6日に上場した。発行上限の調整などは3カ月の猶予を経て2027年1月1日に施行する。新興企業向け市場の流動性向上が見込まれる。",
+       "source": "經濟日報",
+       "date": "2026-10-05",
+       "url": "https://money.udn.com/money/story/5607/9796196"
+      },
+      {
+       "title_zh": "2026 Meet Neo Star 30強出爐：AI進傳產、生而全球成主軸",
+       "title_en": "2026 Meet Neo Star 30 named: AI for traditional industry and born-global teams lead",
+       "title_ja": "2026年Meet Neo Star 30社発表　伝統産業向けAIと「ボーングローバル」が主流",
+       "sum_zh": "第15屆Meet Neo Star從2024年9月至2026年7月採訪逾200家新創中選出30強，觀察四大趨勢：AI協助傳產自動化、一出生就瞄準國際並獲a16z與YC等投資、AI走入實體硬體的深科技，以及研究成果加速商業化。",
+       "sum_en": "The 15th Meet Neo Star list picked 30 startups from more than 200 interviewed between September 2024 and July 2026. It highlights four trends: AI automating traditional industries, born-global teams backed by investors such as a16z and Y Combinator, deep tech as AI moves into hardware, and faster lab-to-market commercialization.",
+       "sum_ja": "第15回Meet Neo Starは、2024年9月から2026年7月までに取材した200社超から30社を選んだ。主な潮流は4つある。AIによる伝統産業の自動化、a16zやY Combinatorなどが出資する創業時からの海外志向、AIのハードウェア進出に伴うディープテック、研究成果の事業化の加速である。",
+       "source": "Meet創業小聚（數位時代）",
+       "date": "2026-10-05",
+       "url": "https://meet.bnext.com.tw/articles/view/53552"
+      },
+      {
+       "title_zh": "蔡英文舊金山會晤新創與創投，籲台灣與矽谷雙向連結",
+       "title_en": "Tsai meets start-up founders and VCs in San Francisco, urges two-way Taiwan–Silicon Valley ties",
+       "title_ja": "蔡英文氏、サンフランシスコで起業家・VCと面会　台湾とシリコンバレーの双方向連携訴え",
+       "sum_zh": "前總統蔡英文卸任後首度訪美，10月9日在舊金山台北經文處與年輕科技創業者及創投人士座談，呼籲台灣與矽谷建立雙向連結，鼓勵旅外人才分享台灣故事，並帶回技術、人才與投資的新觀點，凸顯矽谷台灣創業圈的角色。",
+       "sum_en": "On her first US trip since leaving office, former president Tsai Ing-wen met young tech founders and venture capital figures at TECO San Francisco on Oct. 9. She called for two-way ties between Taiwan and Silicon Valley and urged Taiwanese abroad to bring home insights on technology, talent and investment, underscoring the role of the Bay Area founder community.",
+       "sum_ja": "退任後初めて訪米した蔡英文前総統は10月9日、サンフランシスコの台北経済文化弁事処で若手起業家やベンチャーキャピタル関係者と懇談した。台湾とシリコンバレーの双方向の結び付き強化を訴え、在外の台湾人材に技術・人材・投資の知見を持ち帰るよう促した。ベイエリアの台湾系起業家コミュニティーの役割を示した形だ。",
+       "source": "Focus Taiwan (CNA)",
+       "date": "2026-10-10",
+       "url": "https://focustaiwan.tw/politics/202610100012",
+       "vocab": [
+        {
+         "term": "two-way ties",
+         "zh": "雙向連結；彼此互惠往來的關係",
+         "ja": "双方向の結び付き",
+         "en": "a relationship where both sides exchange and benefit"
+        },
+        {
+         "term": "entrepreneurial ventures",
+         "zh": "創業事業；新創冒險事業",
+         "ja": "起業（新規事業）",
+         "en": "new businesses started by founders"
+        },
+        {
+         "term": "willing to take risks",
+         "zh": "勇於承擔風險",
+         "ja": "リスクを取ることをいとわない",
+         "en": "ready to accept possible losses for a chance of gain"
+        }
+       ]
+      }
+     ],
+     "fo": [
+      {
+       "title_zh": "金管會鬆綁：銀行家族辦公室顧問業務可走出高雄專區，首波11家銀行符合資格",
+       "title_en": "Taiwan FSC lets banks take family office advisory beyond the Kaohsiung zone; 11 banks qualify",
+       "title_ja": "台湾金管会、銀行のファミリーオフィス助言業務を高雄特区外に解禁　11行が申請要件満たす",
+       "sum_zh": "金管會發布銀行辦理家族辦公室顧問業務規範，在高雄專區試辦滿一年的銀行可申請擴至全台分行，首波11家符合。專區內17家銀行至8月底已服務239位客戶、管理資產1,074億元。家辦服務從特區試點走向全台常態化。",
+       "sum_en": "Taiwan's FSC issued rules allowing banks that have run family office advisory in the Kaohsiung zone for at least a year to offer it at branches island-wide; 11 banks qualify. The zone's 17 banks served 239 clients with NT$107.4bn in assets by end-August. The pilot is becoming a nationwide business line.",
+       "sum_ja": "台湾の金融監督管理委員会は、高雄特区で1年以上ファミリーオフィス助言業務を試行した銀行に全国展開の申請を認める規範を公表し、第1陣として11行が要件を満たした。特区の17行は8月末時点で239人の顧客、資産1,074億台湾ドルを扱う。試行段階から全国的な業務へ移行する。",
+       "source": "經濟日報（中央社）",
+       "date": "2026-10-08",
+       "url": "https://money.udn.com/money/story/5613/9803803"
+      },
+      {
+       "title_zh": "物價累計漲幅破10%　明年遺產稅免稅額可望升至1,488萬元、贈與稅272萬元",
+       "title_en": "Taiwan's estate and gift tax exemptions set to rise in 2027 as CPI trigger is crossed",
+       "title_ja": "台湾、物価上昇で来年の相続税・贈与税の非課税枠が引き上げへ",
+       "sum_zh": "8月CPI累計漲幅11.61%，超過10%門檻，遺產稅免稅額可望由1,333萬元升至至少1,488萬元，贈與稅年免稅額由244萬元升至272萬元，適用2027年起案件。財政部年底依10月CPI定案，影響家族贈與規劃。",
+       "sum_en": "Cumulative CPI growth hit 11.61% through August, past the 10% trigger, so Taiwan's estate tax exemption is expected to rise from NT$13.33m to at least NT$14.88m and the annual gift exemption from NT$2.44m to NT$2.72m for 2027 cases. The Finance Ministry will confirm figures at year-end, reshaping family gifting plans.",
+       "sum_ja": "8月までの消費者物価の累積上昇率が11.61%と調整基準の10%を超え、相続税の非課税額は1,333万台湾ドルから少なくとも1,488万台湾ドルへ、年間贈与非課税額は244万から272万台湾ドルへ上がる見通しだ。2027年以降の相続・贈与に適用され、財政部が年末に確定値を公表する。",
+       "source": "經濟日報",
+       "date": "2026-10-05",
+       "url": "https://udn.com/news/story/7243/9794475"
+      },
+      {
+       "title_zh": "新加坡金管局研議將保單與數位支付代幣納入單一家辦免稅「指定投資」清單",
+       "title_en": "MAS weighs adding insurance policies and digital payment tokens to SFO tax-exempt investment list",
+       "title_ja": "シンガポール金融管理局、保険契約とデジタル決済トークンを単一ファミリーオフィス税優遇の対象投資に追加検討",
+       "sum_zh": "新加坡副總理兼金管局主席顏金勇在WMI全球家族辦公室峰會表示，金管局正研議業界建議，將保單與數位支付代幣納入基金稅務優惠的「指定投資」清單，實施日期另行公布。新加坡私人銀行客戶資產五年增約五成，顯示其持續擴大家辦誘因。",
+       "sum_en": "Singapore Deputy PM and MAS chairman Gan Kim Yong told a Wealth Management Institute summit that MAS is reviewing industry calls to add insurance policies and digital payment tokens to the Designated Investment list used for fund tax incentives, including those for single family offices. Timing will come later; private banking assets grew about 50% in five years.",
+       "sum_ja": "シンガポールのガン・キムヨン副首相兼MAS会長はWMIのサミットで、ファンド税優遇の「指定投資」リストに保険契約とデジタル決済トークンを加える業界要望を検討中と述べた。実施時期は追って公表する。同国のプライベートバンキング顧客資産は5年で約5割増えている。",
+       "source": "The Edge Singapore (via Yahoo Finance)",
+       "date": "2026-10-05",
+       "url": "https://sg.finance.yahoo.com/news/mas-may-insurance-policies-digital-010342931.html",
+       "vocab": [
+        {
+         "term": "in due course",
+         "zh": "適當時候、日後（公告）",
+         "ja": "しかるべき時期に",
+         "en": "at an appropriate time in the future"
+        },
+        {
+         "term": "wealth management hub",
+         "zh": "財富管理中心",
+         "ja": "ウェルスマネジメント拠点",
+         "en": "a city or centre where wealth managers cluster"
+        },
+        {
+         "term": "life insurance policy",
+         "zh": "壽險保單",
+         "ja": "生命保険契約",
+         "en": "a contract that pays out on the insured person's death"
+        }
+       ]
+      },
+      {
+       "title_zh": "日經：中國收緊離岸信託稅制　中資家辦由新加坡回流香港",
+       "title_en": "Chinese family office wealth shifts from Singapore back to Hong Kong, Nikkei reports",
+       "title_ja": "中国の富裕層マネー、シンガポールから香港へ回帰　日経報道",
+       "sum_zh": "據日經亞洲分析，中國7月改革離岸信託稅制，每個環節課20%稅，加上新加坡洗錢案後審查趨嚴、家辦核准逾一年，中資轉向香港。新加坡單一家辦逾2,000家，香港達3,384家，港府目標2028年前再引進220家。",
+       "sum_en": "Citing Nikkei Asia, the report says China's July overhaul taxing offshore trusts at 20% per stage, plus Singapore's tighter source-of-funds checks and year-long approvals after a S$3bn laundering case, is pushing Chinese wealth back to Hong Kong. Singapore has over 2,000 SFOs versus 3,384 in Hong Kong, which targets 220 more by 2028.",
+       "sum_ja": "日経アジアによると、中国が7月にオフショア信託を各段階20%で課税する制度に改め、シンガポールも30億シンガポールドルの資金洗浄事件後に審査を厳格化し承認に1年超かかるため、中国マネーが香港へ戻っている。単一FOはシンガポール2,000超、香港3,384で、香港は2028年までに220の追加誘致を目指す。",
+       "source": "Seoul Economic Daily (citing Nikkei Asia)",
+       "date": "2026-10-08",
+       "url": "https://en.sedaily.com/international/2026/10/08/chinese-wealth-shifts-from-singapore-back-to-hong-kong",
+       "vocab": [
+        {
+         "term": "offshore trusts",
+         "zh": "離岸信託",
+         "ja": "オフショア信託",
+         "en": "trusts set up in a jurisdiction outside the owner's home country"
+        },
+        {
+         "term": "source of funds",
+         "zh": "資金來源（審查）",
+         "ja": "資金源（の確認）",
+         "en": "where the money being invested originally came from"
+        },
+        {
+         "term": "tax breaks",
+         "zh": "租稅優惠",
+         "ja": "税制優遇",
+         "en": "reductions or exemptions in tax"
+        }
+       ]
+      },
+      {
+       "title_zh": "摩根大通調查：74%國際家辦視AI為首要投資主題　地緣風險最令人擔憂",
+       "title_en": "JP Morgan pulse survey: 74% of international family offices make AI a top priority",
+       "title_ja": "JPモルガン調査：国際ファミリーオフィスの74%がAIを最優先テーマに",
+       "sum_zh": "摩根大通私人銀行調查125家國際家辦，74%將AI列為首要投資主題，66%最擔心地緣政治風險。過去半年25%加碼公開股票，43%新增另類資產配置，銀行稱屬策略性轉向而非例行再平衡，基礎建設以36%居次。",
+       "sum_en": "JP Morgan Private Bank's pulse survey of 125 international family offices found 74% rank AI a top priority and 66% see geopolitics as the biggest portfolio risk. Over six months, 25% added to public equities and 43% made new allocations to alternatives, which the bank called a strategic shift; infrastructure (36%) ranked next.",
+       "sum_ja": "JPモルガン・プライベートバンクが国際ファミリーオフィス125社を調査したところ、74%がAIを最優先テーマとし、66%が地政学リスクを最大の懸念に挙げた。過去半年で25%が上場株を積み増し、43%がオルタナティブへ新規配分した。同行は戦略的転換だとみている。",
+       "source": "WealthBriefingAsia",
+       "date": "2026-10-08",
+       "url": "https://www.wealthbriefingasia.com/article.php/Family-Offices-Push-Further-Into-AI,-Fret-Over-Geopolitics-%E2%80%93-JP-Morgan?id=209012",
+       "vocab": [
+        {
+         "term": "routine rebalancing",
+         "zh": "例行性的投資組合再平衡",
+         "ja": "定例のリバランス",
+         "en": "regular adjustment of a portfolio back to target weights"
+        },
+        {
+         "term": "strategic shift",
+         "zh": "策略性轉向",
+         "ja": "戦略的転換",
+         "en": "a deliberate long-term change of direction"
+        },
+        {
+         "term": "persistent inflation",
+         "zh": "頑固（持續）的通膨",
+         "ja": "根強いインフレ",
+         "en": "inflation that stays high for a long time"
+        }
+       ]
+      },
+      {
+       "title_zh": "德銀新加坡家辦論壇現場調查：73%認為亞洲最穩定，AI風險意識大增",
+       "title_en": "Deutsche Bank Singapore family office forum poll: 73% see Asia as most stable region",
+       "title_ja": "ドイツ銀行のシンガポールFOフォーラム、73%が「最も安定した地域はアジア」",
+       "sum_zh": "德意志銀行在新加坡舉辦第三屆亞洲新興市場家辦論壇，約200名家辦與富裕人士出席。現場調查顯示，37%視利率與殖利率為全球成長最大風險，選AI者由去年5%升至17%；73%認為未來一年亞洲地緣最穩定，美國僅14%。",
+       "sum_en": "At Deutsche Bank's third Asia Emerging Markets Family Office Forum in Singapore, attended by about 200 families and wealthy individuals, 37% named rates and yields the top growth risk and AI's share jumped to 17% from 5% last year. 73% picked Asia as the most geopolitically stable region versus 14% for the US.",
+       "sum_ja": "ドイツ銀行がシンガポールで開いた第3回アジア新興国ファミリーオフィス・フォーラムには約200人が参加した。会場調査では37%が金利・利回りを世界成長の最大リスクとし、AIを挙げた割合は前年の5%から17%に上昇した。73%が今後1年で最も安定した地域にアジアを選び、米国は14%だった。",
+       "source": "Caproasia",
+       "date": "2026-10-09",
+       "url": "https://www.caproasia.com/2026/10/09/deutsche-bank-held-3rd-asia-emerging-markets-family-office-forum-2026-in-singapore-attended-by-200-family-offices-wealthy-individuals-live-poll-1-top-3-economic-risks-are-rates-yields-inflati/",
+       "vocab": [
+        {
+         "term": "capital allocation",
+         "zh": "資本配置",
+         "ja": "資本配分",
+         "en": "deciding where to put money to work"
+        },
+        {
+         "term": "risk mitigation strategies",
+         "zh": "風險緩解（降低）策略",
+         "ja": "リスク軽減策",
+         "en": "plans to reduce potential losses"
+        },
+        {
+         "term": "ultra-high net worth",
+         "zh": "超高資產（淨值）",
+         "ja": "超富裕層の",
+         "en": "having very large personal wealth, typically US$30m+"
+        }
+       ]
+      },
+      {
+       "title_zh": "RBC與Campden報告：北美家辦半數無完整接班計畫，86%投資私募市場",
+       "title_en": "North American family offices upbeat, but half lack a full succession plan: RBC/Campden",
+       "title_ja": "北米ファミリーオフィス、半数が承継計画不十分　RBC・キャンデン報告",
+       "sum_zh": "RBC與Campden Wealth調查155家美洲家辦，平均淨資產約22.5億美元。23%過去五年經歷世代交接，但半數接班計畫不完整或付之闕如；86%投資私募市場，直接投資占私募配置45%。顯示傳承治理仍落後於投資布局。",
+       "sum_en": "The RBC and Campden Wealth survey of 155 family offices in the Americas (average net worth about US$2.25bn) found 23% had a generational transfer in the past five years, yet half have an incomplete or no succession plan. 86% invest in private markets, with direct deals 45% of that allocation.",
+       "sum_ja": "RBCとキャンデン・ウェルスが米州の155のファミリーオフィス（平均純資産約22.5億ドル）を調査した。過去5年で23%が世代交代を経験したが、半数は承継計画が不完全か存在しない。86%がプライベート市場に投資し、その配分の45%を直接投資が占める。",
+       "source": "ThinkAdvisor",
+       "date": "2026-10-09",
+       "url": "https://www.thinkadvisor.com/2026/10/09/north-american-family-offices-feel-upbeat-report"
+      },
+      {
+       "title_zh": "Raffles家族辦公室基金會捐25萬星元　資助新加坡管理大學生海外創業實習",
+       "title_en": "Raffles Family Office Foundation funds S$250,000 overseas internship award at SMU",
+       "title_ja": "ラッフルズ・ファミリーオフィス財団、SMU学生の海外インターンに25万シンガポールドル拠出",
+       "sum_zh": "港新雙總部的聯合家辦Raffles Family Office旗下慈善基金會，在新加坡管理大學設立創新獎，五年共25萬星元（約19.5萬美元），每學年資助10名大學部學生海外實習，培養創業思維與國際視野。家辦以慈善投入人才培育。",
+       "sum_en": "The philanthropic arm of Raffles Family Office, a multi-family office headquartered in Hong Kong and Singapore, set up an S$250,000 (about US$195,000) five-year award at Singapore Management University, funding 10 undergraduates a year for overseas internships to build entrepreneurial skills. It shows family office giving aimed at talent.",
+       "sum_ja": "香港とシンガポールに本拠を置くマルチ・ファミリーオフィス、ラッフルズ・ファミリーオフィスの慈善財団が、シンガポール経営大学に5年間で25万シンガポールドル（約19万5000ドル）の賞を設けた。毎年10人の学部生の海外インターンを支援し、起業家精神を育てる。",
+       "source": "Caproasia",
+       "date": "2026-10-09",
+       "url": "https://www.caproasia.com/2026/10/09/hong-kong-singapore-mfo-raffles-family-office-raffles-family-office-foundation-setup-195000-s250000-overseas-internship-award-raffles-family-office-global-innovation-award-at-singapore-manag/",
+       "vocab": [
+        {
+         "term": "philanthropic arm",
+         "zh": "慈善部門（旗下公益機構）",
+         "ja": "慈善部門",
+         "en": "the part of an organisation that handles charitable giving"
+        },
+        {
+         "term": "entrepreneurial mindset",
+         "zh": "創業思維",
+         "ja": "起業家精神",
+         "en": "a way of thinking that seeks opportunities and takes initiative"
+        },
+        {
+         "term": "international exposure",
+         "zh": "國際歷練",
+         "ja": "国際経験",
+         "en": "experience gained by working or studying abroad"
+        }
+       ]
+      }
+     ]
+    }
+   },
+   {
     "week": "2026-10-05",
     "label": "2026 年 10 月第 1 週",
     "items": {
